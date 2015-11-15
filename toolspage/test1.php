@@ -39,6 +39,21 @@
             <div class="answer">
                 答案:<span id="sfysanswer"></span>
             </div>
+            <h2>历史记录</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>数据1</th>
+                        <th>数据2</th>
+                        <th>结果</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="record0">
+                        
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
