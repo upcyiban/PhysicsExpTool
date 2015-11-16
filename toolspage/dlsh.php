@@ -8,7 +8,7 @@
     <link href="../css/main.css" rel="stylesheet">
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/dlsh.js"></script>
 </head>
 <body>
 <div id="container" class="container">
@@ -33,13 +33,13 @@
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">V10</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="var2" placeholder="输入v10的值">
+                        <input type="text" class="form-control" id="var10" placeholder="输入v10的值">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">V20</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="var2" placeholder="输入v20的值">
+                        <input type="text" class="form-control" id="var20" placeholder="输入v20的值">
                     </div>
                 </div>
                 <div class="form-group">
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="answer">
-答案:<span id="sfysanswer"></span>
+答案:<span id="sfysanswer1"></span>
             </div>
             <h2>历史记录</h2>
             <table class="table">
