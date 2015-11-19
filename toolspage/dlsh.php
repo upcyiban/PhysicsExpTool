@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="answer">
-答案:<span id="sfysanswer1"></span>
+答案:<span id="sfysanswer"></span>
             </div>
             <h2>历史记录</h2>
             <table class="table">
