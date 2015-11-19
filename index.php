@@ -24,7 +24,7 @@
         <div id="warm" class="warm"></div>
         <ul id="task-list" class="task-list">
             <li>
-                <a href="toolspage/test1.php">
+                <a href="toolspage/gscbc.php">
                     光栅测量光的波长
                 </a>
             </li>
