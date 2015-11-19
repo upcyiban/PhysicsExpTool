@@ -39,6 +39,11 @@
                 </a>
             </li>
             <li>
+                <a href="toolspage/fatx.php">
+                    电学元件的伏安特性研究
+                </a>
+            </li>
+            <li>
                 <a href="#">
                     没有你想找的实验处理工具?点此反馈
                 </a>
