@@ -16,11 +16,8 @@
     <h1><strong>动量守恒定律的验证</strong></h1>
     <br>
     <div class="panel panel-default">
-        <br>
-        注释：
-        <ol style="text-align: left">
-            <li>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</li>
-        </ol>
+        注释：<br>
+        <p>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">

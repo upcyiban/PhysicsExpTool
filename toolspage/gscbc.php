@@ -15,14 +15,6 @@
     <h1><strong>光栅测量光的波长</strong></h1>
     <br>
     <div class="panel panel-default">
-        注释：<br>
-        <ol style="text-align: left">
-            <li>钠双线589.0nm、589.6nm光谱线作为标准波长用于波长标定，实验中取其平均值589.3nm作为钠光灯波长值。</li>
-            <li>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</li>
-            <li>为简化运算，只需把对应级数和数据输入对应框，无需判断计算后角度正负</li>
-        </ol>
-    </div>
-    <div class="panel panel-default">
         <div class="panel-body">
             <br>
             <div class="form-horizontal">
@@ -72,7 +64,7 @@
                         <th>左侧右游标读数</th>
                         <th>右侧左游标读数</th>
                         <th>右侧右游标读数</th>
-                        <th>波长λ(Nm)</th>
+                        <th>波长λ</th>
                     </tr>
                 </thead>
                 <tbody id="record">

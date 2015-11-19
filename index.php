@@ -15,7 +15,7 @@
     <h1>大物实验数据辅助处理工具</h1>
 
     <p class="sta">
-        &nbsp;当前已开发 <span>3</span> 个工具&nbsp;
+        &nbsp;当前已开发 <span>0</span> 个工具&nbsp;
     </p>
     <!--    <div class="search">-->
     <!--        <input class="searchinput" type="text">&nbsp;&nbsp;<button class="btn">搜索</button>-->
