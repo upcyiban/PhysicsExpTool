@@ -21,55 +21,51 @@
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">V1</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="var1" placeholder="输入v1的值">
+                        <input type="text" class="form-control" id="m1" placeholder="输入m1的值">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">V1</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="m2" placeholder="输入m2的值">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">V1</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="v1" placeholder="输入v1的值">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">V2</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="var2" placeholder="输入v2的值">
+                        <input type="text" class="form-control" id="v2" placeholder="输入v2的值">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword3" class="col-sm-2 control-label">V10</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="var10" placeholder="输入v10的值">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">V20</label>
-                    <div class="col-sm-8">
-                        <input type="text" class="form-control" id="var20" placeholder="输入v20的值">
+                        <input type="text" class="form-control" id="v10" placeholder="输入v10的值">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <button id="sfysbtn" class="btn btn-default">计算</button>
+                        <button id="dlshbtn" class="btn btn-default">计算</button>
                     </div>
                 </div>
-            </div>
-            <div class="answer">
-答案:<span id="sfysanswer1"></span>
             </div>
             <h2>历史记录</h2>
             <table class="table">
                 <thead>
                     <tr>
-                        <th>V1</th>
-                        <th>V2</th>
-                        <th>V10</th>
-                        <th>V20</th>
-                        <th>P0</th>
-                        <th>P1</th>
+                        <th>初动量P0</th>
+                        <th>末动量P1</th>
                         <th>百分比误差</th>
-                        <th>恢复系数e（限弹性碰撞）</th>
-                        <th>动能比R（限非弹性碰撞）</th>
+                        <th>恢复系数e</th>
+                        <th>动能比R</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr id="record0">
-
-                    </tr>
+                <tbody id="record">
                 </tbody>
             </table>
         </div>

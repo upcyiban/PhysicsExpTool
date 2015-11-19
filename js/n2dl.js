@@ -12,7 +12,7 @@ $(document).ready(function(){
         var F=0;
         var M = $('#M').val();
         var F= $('#F').val();
-
+        var ans;
        if (F==0)
        {
            ans = M * a;
