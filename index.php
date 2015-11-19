@@ -29,6 +29,11 @@
                 </a>
             </li>
             <li>
+                <a href="toolspage/dlsh.php">
+                    动量守恒定律的验证
+                </a>
+            </li>
+            <li>
                 <a href="toolspage/n2dl.php">
                     牛顿第二定律的验证
                 </a>
