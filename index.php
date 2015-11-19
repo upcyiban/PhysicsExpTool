@@ -25,7 +25,7 @@
         <ul id="task-list" class="task-list">
             <li>
                 <a href="toolspage/test1.php">
-                    双缝衍射实验
+                    光栅测量光的波长
                 </a>
             </li>
             <li>
