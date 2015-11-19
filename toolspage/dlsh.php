@@ -17,7 +17,7 @@
     <br>
     <div class="panel panel-default">
         注释：<br>
-        <p>本计算结果保留四位小数，在记录数据请保留三位小数并请使用修约原则。</p>
+        <p>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">

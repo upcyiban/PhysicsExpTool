@@ -7,7 +7,7 @@ $(document).ready(function(){
         var m1  = $("#m1" ).val();
         var m2  = $("#m2").val();
         if(m1 == 0 || m2 ==0){
-            alert("质量不能为0,请重新输入");
+            alert("质量不能为0,请重新输入!");
         }
         var v1  = $("#v1").val();
         if(v1 == 0){
