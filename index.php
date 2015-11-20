@@ -44,6 +44,11 @@
                 </a>
             </li>
             <li>
+                <a href="toolspage/gtzdgldcl.php">
+                    刚体转动惯量的测量
+                </a>
+            </li>
+            <li>
                 <a href="#">
                     没有你想找的实验处理工具?点此反馈
                 </a>
