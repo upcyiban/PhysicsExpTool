@@ -548,14 +548,14 @@
                         </td>
                     </tr>
                 </table><br/>
-                <button onclick="Submit()" style="color: #31b0d5"><h5>  提交  </h5></button><br/><br/><br/>
+                <button id="submit" style="color: #31b0d5"><h5>  提交  </h5></button><br/><br/><br/>
             </div>
-            <h2>历史记录</h2>
+            <h2>答案</h2>
             <table class="table">
                 <thead>
                 <tr>
-                    <th>数据1</th>
-                    <th>数据2</th>
+                    <th>答案</th>
+                    <th>公式</th>
                     <th>结果</th>
                 </tr>
                 </thead>
