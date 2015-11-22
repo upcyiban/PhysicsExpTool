@@ -50,28 +50,28 @@
 
                     <tr>
                         <td>
-                            <input id="Dsy1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="Dsy1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
 
                     </tr>
                     <tr>
                         <td>
-                            <input id="Dsy2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="Dsy2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="Dsy3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="Dsy3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="Dsy4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="Dsy4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="Dsy5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="Dsy5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -85,28 +85,28 @@
 
                     <tr>
                         <td>
-                            <input id="KyN1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyN1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
 
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyN2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyN2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyN3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyN3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyN4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyN4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyN5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyN5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -121,28 +121,28 @@
 
                     <tr>
                         <td>
-                            <input id="KyW1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyW1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
 
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyW2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyW2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyW3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyW3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyW4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyW4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="KyW5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KyW5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -154,7 +154,7 @@
                             D
                         </td>
                         <td>
-                            <input id="MQD" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="MQD" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -169,28 +169,28 @@
 
                     <tr>
                         <td>
-                            <input id="XG1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="XG1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
 
                     </tr>
                     <tr>
                         <td>
-                            <input id="XG2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="XG2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="XG3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="XG3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="XG4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="XG4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="XG5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="XG5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -205,28 +205,28 @@
 
                     <tr>
                         <td>
-                            <input id="HKN1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKN1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
 
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKN2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKN2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKN3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKN3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKN4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKN4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKN5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKN5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -241,28 +241,28 @@
 
                     <tr>
                         <td>
-                            <input id="HKW1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKW1" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
 
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKW2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKW2" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKW3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKW3" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKW4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKW4" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <input id="HKW5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKW5" type="text" value="请输入尺寸" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -283,7 +283,7 @@
                             塑料圆柱体
                         </td>
                         <td>
-                            <input id="SYM" type="text" value="请输入圆柱体质量" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="SYM" type="text" value="请输入圆柱体质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -291,7 +291,7 @@
                             空心圆筒
                         </td>
                         <td>
-                            <input id="KYM" type="text" value="请输入圆筒质量" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="KYM" type="text" value="请输入圆筒质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -299,7 +299,7 @@
                             木球
                         </td>
                         <td>
-                            <input id="MQM" type="text" value="请输入木球质量" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="MQM" type="text" value="请输入木球质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -307,7 +307,7 @@
                             细杆
                         </td>
                         <td>
-                            <input id="XGM" type="text" value="请输入细杆质量" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="XGM" type="text" value="请输入细杆质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -315,7 +315,7 @@
                             金属滑块
                         </td>
                         <td>
-                            <input id="HKM" type="text" value="请输入滑块质量" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="HKM" type="text" value="请输入滑块质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                 </table><br/><br/><br/>
@@ -347,19 +347,19 @@
                             T[0]
                         </td>
                         <td>
-                            <input id="t01" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t01" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t02" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t02" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t03" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t03" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t04" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t04" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t05" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t05" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -367,19 +367,19 @@
                             T[1]
                         </td>
                         <td>
-                            <input id="t11" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t11" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t12" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t12" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t13" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t13" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t14" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t14" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t15" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t15" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -387,19 +387,19 @@
                             T[2]
                         </td>
                         <td>
-                            <input id="t21" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t21" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t22" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t22" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t23" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t23" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t24" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t24" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t25" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t25" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -407,19 +407,19 @@
                             T[3]
                         </td>
                         <td>
-                            <input id="t31" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t31" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t32" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t32" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t33" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t33" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t34" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t34" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t35" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t35" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                     <tr>
@@ -427,19 +427,19 @@
                             T[4]
                         </td>
                         <td>
-                            <input id="t41" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t41" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t42" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t42" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t43" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t43" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t44" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t44" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="t45" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="t45" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -448,19 +448,19 @@
                             X=5cm
                         </td>
                         <td>
-                            <input id="x5_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x5_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x5_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x5_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x5_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x5_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x5_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x5_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x5_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x5_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -469,19 +469,19 @@
                             X=10cm
                         </td>
                         <td>
-                            <input id="x10_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x10_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x10_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x10_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x10_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x10_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x10_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x10_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x10_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x10_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -490,19 +490,19 @@
                             X=15cm
                         </td>
                         <td>
-                            <input id="x15_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x15_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x15_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x15_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x15_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x15_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x15_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x15_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x15_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x15_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -511,19 +511,19 @@
                             X=20cm
                         </td>
                         <td>
-                            <input id="x20_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x20_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x20_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x20_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x20_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x20_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x20_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x20_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x20_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x20_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
 
@@ -532,19 +532,19 @@
                             X=25cm
                         </td>
                         <td>
-                            <input id="x25_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x25_1" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x25_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x25_2" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x25_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x25_3" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x25_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x25_4" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                         <td>
-                            <input id="x25_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value='';this.type='password'}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                            <input id="x25_5" type="text" value="请输入时间" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                         </td>
                     </tr>
                 </table><br/>
