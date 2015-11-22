@@ -155,7 +155,22 @@ $(document).ready(function(){
             var J4S = shijij_1(0.232*Math.pow(10,-4),t4,k);
             var J4L = lilunj_4(XGM,XG);
             var J4X = XiangDuiWuX(J4S,J4L);
-            }
+        //输出答案
+            document.getElementById("J_1").innerHTML=J1;
+            document.getElementById("k").innerHTML=k;
+            document.getElementById("Ua_J0").innerHTML=Ua_J0;
+            document.getElementById("Ua_k").innerHTML=Ua_k;
+            document.getElementById("J2L").innerHTML=J2L;
+            document.getElementById("J2S").innerHTML=J2S;
+            document.getElementById("J2X").innerHTML=J2X;
+            document.getElementById("J3S").innerHTML=J3S;
+            document.getElementById("J3L").innerHTML=J3L;
+            document.getElementById("J3X").innerHTML=J3X;
+            document.getElementById("J4L").innerHTML=J4L;
+            document.getElementById("J4S").innerHTML=J4S;
+            document.getElementById("J4S").innerHTML=J4S;
+            document.getElementById("J4X).innerHTML=J4X;
+        }
 
     );
 
@@ -172,33 +187,33 @@ $(document).ready(function(){
     }
     function  kJ(j1,t1,t0){
         var k;
-        k = 4* Math.PI*Math.PI*J1/(t1*t1-t0*t0);
+        k = 4* Math.PI*Math.PI*j1/(t1*t1-t0*t0);
         return k;
     }
     function  lilunj_1(x1,x2){
         var J;
-        J= x1*x2*x2/8;
+        J= x1*Math.pow(10,-3)*x2*Math.pow(10,-3)*x2*Math.pow(10,-3)/8;
         return J;
     }
 
     function lilunj_2(m,dw,dn){
         var j;
-        j = m * (dw * dw + dn * dn)/8;
+        j = m *Math.pow(10,-3)* (dw*Math.pow(10,-3) * dw*Math.pow(10,-3) + dn*Math.pow(10,-3) * dn*Math.pow(10,-3))/8;
         return j;
     }
     function lilunj_3(m,d){
         var j;
-        j = m * d * d/10;
+        j = m*Math.pow(10,-3) * d *Math.pow(10,-3)* d*Math.pow(10,-3)/10;
         return j;
     }
     function lilunj_4(m,l){
         var j;
-        j = m * l * l/12;
+        j = m *Math.pow(10,-3)* l*Math.pow(10,-2) * l*Math.pow(10,-2)/12;
         return j;
     }
     function lilunj_c(m,dw,dn,l){
         var j;
-        j = m * (dw*dw+dn*dn)/16 + m*l*l/12;
+        j = m *Math.pow(10,-3)* (dw*Math.pow(10,-3)*dw*Math.pow(10,-3) + dn*Math.pow(10,-3)*dn*Math.pow(10,-3))/16 + m*l*l/12;
         return j;
     }
 
