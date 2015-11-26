@@ -162,3 +162,12 @@ footer p {
     color: #000000;
     text-decoration: none;
 }
+.task-list a{
+    color: #000000;
+    text-decoration: none;
+}
+.report{
+    font-size: medium;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
