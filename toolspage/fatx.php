@@ -1,3 +1,6 @@
+<?php
+include "auth.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +17,7 @@
 
 <div id="container" class="container">
     <h1><strong>电学元件的伏安特性研究</strong></h1>
-    <p>研究二极管正向电压和电流关系</p>
+    <p>研究二极管正向电压和电流关系（NaN表示无解）</p>
     <br>
     <div class="panel panel-default">
     </div>
