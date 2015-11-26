@@ -48,7 +48,7 @@ if (empty($token))		// 未获取授权
         if (isset($info['access_token']))
         {
             $_SESSION['__TOKEN__']	= $info['access_token'];
-            echo 'SUCCESS';
+            header('location:index.php');
         }
         else
         {
@@ -62,6 +62,6 @@ if (empty($token))		// 未获取授权
 }
 else
 {
-    echo 'AUTHORIED';
+    header('location:index.php');
 }
 ?>
