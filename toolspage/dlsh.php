@@ -15,42 +15,45 @@
 <div id="container" class="container">
     <h1><strong>动量守恒定律的验证</strong></h1>
     <br>
-    <div class="panel panel-default">
+    <div class="panel panel-default" style="" >
         注释：<br>
-        <p>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
+        <ul >
+            <li>完全非弹性时把T10填入t11，T1与T2填同一个数值t22。</li>
+            <li>本计算结果保留四位小数，在您列表记录数据请使用修约原则来保留三位小数。</li>
+        </ul>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
             <br>
             <div class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">M1(单位:Kg)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">M1(单位:g)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="m1" placeholder="输入m1的值">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">M2(单位:Kg)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">M2(单位:g)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="m2" placeholder="输入m2的值">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">T1(单位:Ms)</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">T11(单位:Ms)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="v1" placeholder="输入t1的值,如果没有则填0">
+                        <input type="text" class="form-control" id="v10" placeholder="输入t11的值">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">T2(单位:Ms)</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">T22(单位:Ms)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="v2" placeholder="输入t2的值">
+                        <input type="text" class="form-control" id="v2" placeholder="输入t22的值">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">T10(单位:Ms)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">T12(单位:Ms)</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="v10" placeholder="输入t10的值">
+                        <input type="text" class="form-control" id="v1" placeholder="输入t12的值,如果没有则填0">
                     </div>
                 </div>
                 <div class="form-group">
@@ -63,11 +66,13 @@
             <table class="table">
                 <thead>
                     <tr>
+                        <th>M1</th>
+                        <th>M2</th>
                         <th>初动量P0</th>
                         <th>末动量P1</th>
                         <th>百分比误差</th>
-                        <th>恢复系数e</th>
-                        <th>动能比R</th>
+                        <th>恢复系数e(弹性）</th>
+                        <th>动能比R（非弹性）</th>
                     </tr>
                 </thead>
                 <tbody id="record">
