@@ -25,7 +25,7 @@ $(document).ready(function(){
         var e = (v2 - v1)/v10;
         var r = p1/p0;
         p0 = p0.toFixed(4);p1 = p1.toFixed(4);
-        p = (p.toFixed(6))*100;//换算成百分比
+        p = (100*p.toFixed(5));//换算成百分比
         e = e.toFixed(4);
         r = r.toFixed(4);
         $("#record").append("<tr> <th>"+m1+"</th> <th>"+m2+"</th> <th>"+p0+"e-2</th> <th>"+p1+"e-2</th> <th>"+p+"%</th> <th>"+e+"</th> <th>"+r+"</th> </tr>");
