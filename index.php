@@ -12,10 +12,10 @@
 </head>
 <body>
 <div id="container" class="container-fluid">
-    <h1>大物实验数据辅助处理工具</h1>
+    <h1>大物实验数据<br>辅助处理工具</h1>
 
     <p class="sta">
-        &nbsp;当前已开发 <span>0</span> 个工具&nbsp;
+        &nbsp;当前已开发 <span>5</span> 个工具&nbsp;
     </p>
     <!--    <div class="search">-->
     <!--        <input class="searchinput" type="text">&nbsp;&nbsp;<button class="btn">搜索</button>-->
@@ -23,36 +23,36 @@
     <div class="width-ctrl">
         <div id="warm" class="warm"></div>
         <ul id="task-list" class="task-list">
-            <li>
-                <a href="toolspage/gscbc.php">
+            <a href="toolspage/gscbc.php">
+                <li>
                     光栅测量光的波长
-                </a>
-            </li>
-            <li>
-                <a href="toolspage/dlsh.php">
+                </li>
+            </a>
+            <a href="toolspage/dlsh.php">
+                <li>
                     动量守恒定律的验证
-                </a>
-            </li>
-            <li>
-                <a href="toolspage/n2dl.php">
+                </li>
+            </a>
+            <a href="toolspage/n2dl.php">
+                <li>
                     牛顿第二定律的验证
-                </a>
-            </li>
-            <li>
-                <a href="toolspage/fatx.php">
+                </li>
+            </a>
+            <a href="toolspage/fatx.php">
+                <li>
                     电学元件的伏安特性研究
-                </a>
-            </li>
-            <li>
-                <a href="toolspage/gtzdgldcl.php">
+                </li>
+            </a>
+            <a href="toolspage/gtzdgldcl.php">
+                <li>
                     刚体转动惯量的测量
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    没有你想找的实验处理工具?点此反馈
-                </a>
-            </li>
+                </li>
+            </a>
+            <a href="report.php">
+                <li>
+                    <p class="report">没有你想找的实验处理工具?点此反馈</p>
+                </li>
+            </a>
         </ul>
     </div>
     <footer class="text-center">
