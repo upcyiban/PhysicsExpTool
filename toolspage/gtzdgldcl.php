@@ -91,25 +91,25 @@
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">质量m(单位:kg)</label>
                     <div class="col-sm-8">
-                        <input id="YTM" type="text" class="form-control" value="输入质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="M" type="text" class="form-control" value="输入质量" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">内径d(单位:m)</label>
                     <div class="col-sm-8">
-                        <input id="YTN" type="text" class="form-control" value="输入金属圆筒内径d，如果没有请输入零" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="NJ" type="text" class="form-control" value="输入金属圆筒内径d，如果没有请输入零" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">外径D(单位:m)</label>
                     <div class="col-sm-8">
-                        <input id="YTW" type="text" class="form-control" value="输入外径D" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="WJ" type="text" class="form-control" value="输入外径D或长度" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">T(单位:s)</label>
                     <div class="col-sm-8">
-                        <input id="T2" type="text" class="form-control" value="输入T2" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="T" type="text" class="form-control" value="输入T" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -119,9 +119,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">载物盘转动惯量J0</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">载物盘或支架的转动惯量J0</label>
                     <div class="col-sm-8">
-                        <input id="K" type="text" class="form-control" value="输入J0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="J0" type="text" class="form-control" value="输入载物盘或支架的转动惯量J0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
             </div>
                 <div class="form-group">
@@ -129,13 +129,13 @@
                         <button id="JS_J2" class="btn btn-default">计算</button>
                     </div>
                 </div>
-
         </div>
             <h2>历史记录</h2>
             <table class="table">
                 <thead>
                 <tr>
                     <th>所算量</th>
+                    <th>m</th>
                     <th>d</th>
                     <th>D</th>
                     <th>T</th>

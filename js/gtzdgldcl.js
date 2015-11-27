@@ -22,7 +22,60 @@ $(document).ready(function(){
         $("#record_J0").append("<tr> <th>"+T0+"</th> <th>"+T1+"</th> <th>"+SYD+"</th> <th>"+SYM+"</th> <th>"+J1+"</th> <th>"+J0+"</th> <th>"+k+"</th> </tr>");
 
     });
-    $('#JS_J').click(function(){
+    $('#JS_J2').click(function(){
+        var   XZ= $("#XZ").val();
+        var   M= $("#M").val();
+        var   NJ= $("#NJ").val();
+        var   WJ= $("#WJ").val();
+        var   T= $("#T").val();
+        var   K= $("#K").val();
+        var   J0= $("#J0").val();
+        if(NJ==WJ)
+        {
+            alert("内径和外径不能相同");
+        }
+        var   LJ;
+        var   SJ;
+        var   xxz;
+        var   xd;
+        if(XZ==1)
+        {
+            xxz = "金属圆筒";
+            LJ = lilunj_2(M,WJ,NJ);
+            SJ = shijij_1(J0,T,K);
+            if(SJ<0)
+            {
+                alert("输入数据有误，使得实验测量的转动惯量小于0了")
+            }
+            xd = XiangDuiWuX(LJ,SJ);
+        }
+        else if(XZ==2)
+        {
+            xxz = "木球";
+            LJ = lilunj_3(M,WJ);
+            SJ = shijij_1(J0,T,K);
+            if(SJ<0)
+            {
+                alert("输入数据有误，使得实验测量的转动惯量小于0了")
+            }
+            xd = XiangDuiWuX(LJ,SJ);
+        }
+        else if(XZ==3)
+        {
+            xxz = "细杆";
+            LJ = lilunj_4(M,WJ);
+            SJ = shijij_1(J0,T,K);
+            if(SJ<0)
+            {
+                alert("输入数据有误，使得实验测量的转动惯量小于0了")
+            }
+            xd = XiangDuiWuX(LJ,SJ);
+        }
+        else
+        {
+            alert("不懂你要人家做什么");
+        }
+        $("#record_J2").append("<tr> <th>"+xxz+"</th> <th>"+M+"</th> <th>"+NJ+"</th> <th>"+WJ+"</th> <th>"+T+"</th> <th>"+K+"</th> <th>"+J0+"</th> <th>"+LJ+"</th> <th>"+SJ+"</th> <th>"+xd+"</th> </tr>");
 
     });
     /**
@@ -49,22 +102,22 @@ $(document).ready(function(){
 
     function lilunj_2(m,dw,dn){
         var j;
-        j = m *Math.pow(10,-3)* (dw*Math.pow(10,-3) * dw*Math.pow(10,-3) + dn*Math.pow(10,-3) * dn*Math.pow(10,-3))/8;
+        j = m * (dw * dw+ dn* dn)/8;
         return j;
     }
     function lilunj_3(m,d){
         var j;
-        j = m*Math.pow(10,-3) * d *Math.pow(10,-3)* d*Math.pow(10,-3)/10;
+        j = m * d * d/10;
         return j;
     }
     function lilunj_4(m,l){
         var j;
-        j = m *Math.pow(10,-3)* l*Math.pow(10,-2) * l*Math.pow(10,-2)/12;
+        j = m * l* l/12;
         return j;
     }
     function lilunj_c(m,dw,dn,l){
         var j;
-        j = m *Math.pow(10,-3)* (dw*Math.pow(10,-3)*dw*Math.pow(10,-3) + dn*Math.pow(10,-3)*dn*Math.pow(10,-3))/16 + m*l*l/12;
+        j = m * (dw*dw + dn*dn)/16 + m*l*l/12;
         return j;
     }
 
