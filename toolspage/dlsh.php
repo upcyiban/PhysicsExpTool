@@ -15,11 +15,11 @@
 <div id="container" class="container">
     <h1><strong>动量守恒定律的验证</strong></h1>
     <br>
-    <div class="panel panel-default" style="" >
-        注释：<br>
-        <ul >
+    <div class="panel panel-default"  >
+        <p style="text-align: left"><strong>注释：</strong></p>
+        <ul style="text-align: left">
             <li>完全非弹性时把T10填入t11，T1与T2填同一个数值t22。</li>
-            <li>动量单位是kg*(m/s)^2,由于计算数值太小所以使用科学计数法记录，提示e-3是指10^-3</li>
+            <li>动量单位是kg*(m/s)^2,由于计算数值太小所以使用科学计数法记录，E-3是指10^-3</li>
             <li>本计算结果保留四位小数，在您列表记录数据请使用修约原则来保留三位小数。</li>
         </ul>
     </div>

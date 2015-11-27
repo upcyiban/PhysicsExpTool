@@ -28,6 +28,6 @@ $(document).ready(function(){
         p = ((100*p).toFixed(2));//换算成百分比
         e = e.toFixed(4);
         r = r.toFixed(4);
-        $("#record").append("<tr> <th>"+m1+"</th> <th>"+m2+"</th> <th>"+p0+"e-2</th> <th>"+p1+"e-2</th> <th>"+p+"%</th> <th>"+e+"</th> <th>"+r+"</th> </tr>");
+        $("#record").append("<tr> <th>"+m1+"</th> <th>"+m2+"</th> <th>"+p0+"E-2</th> <th>"+p1+"E-2</th> <th>"+p+"%</th> <th>"+e+"</th> <th>"+r+"</th> </tr>");
     });
 });
