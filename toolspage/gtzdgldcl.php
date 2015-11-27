@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <button id="JS J0" class="btn btn-default">计算</button>
+                        <button id="JS_J0" class="btn btn-default">计算</button>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                     <th>K</th>
                 </tr>
                 </thead>
-                <tbody id="record J0">
+                <tbody id="record_J0">
                 </tbody>
             </table>
 
@@ -126,7 +126,7 @@
             </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <button id="JS J0" class="btn btn-default">计算</button>
+                        <button id="JS_J2" class="btn btn-default">计算</button>
                     </div>
                 </div>
 
@@ -146,7 +146,7 @@
                     <th>相对误差%</th>
                 </tr>
                 </thead>
-                <tbody id="record J2">
+                <tbody id="record_J2">
                 </tbody>
             </table>
             </div>
