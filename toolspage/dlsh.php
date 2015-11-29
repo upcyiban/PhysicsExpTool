@@ -18,7 +18,9 @@
     <div class="panel panel-default"  >
         <p style="text-align: left"><strong>注释：</strong></p>
         <ul style="text-align: left">
-            <li>完全非弹性时把T10填入t11，T1与T2填同一个数值t22。</li>
+            <li>请注意质量M的单位:Kg，T无需换算直接输入</li>
+            <li>T11为滑行器1经过光电门1时间，T12为滑行器1经过光电门2时间，T22为滑行器2经过光电门2</li>
+            <li>在完全非弹性碰撞：若你额外记录了T12的值，请分别填入，否则请将T12与T22填同一个数值T22。</li>
             <li>动量单位是kg*(m/s)^2,由于计算数值太小所以使用科学计数法记录，E-3是指10^-3</li>
             <li>本计算结果保留四位小数，在您列表记录数据请使用修约原则来保留三位小数。</li>
         </ul>
@@ -28,13 +30,13 @@
             <br>
             <div class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">M1(单位:g)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">M1(单位:Kg)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="m1" placeholder="输入m1的值">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">M2(单位:g)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">M2(单位:Kg)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="m2" placeholder="输入m2的值">
                     </div>
