@@ -19,7 +19,7 @@ $(document).ready(function(){
         var k;
         k = kJ(J1,T1,T0);
 
-        $("#record_J0").append("<tr> <th>"+T0+"</th> <th>"+T1+"</th> <th>"+SYD+"</th> <th>"+SYM+"</th> <th>"+J1+"</th> <th>"+J0+"</th> <th>"+k+"</th> </tr>");
+        $("#record_J0").append("<tr> <td>"+T0+"</td> <td>"+T1+"</td> <td>"+SYD+"</td> <td>"+SYM+"</td> <td>"+J1+"</td> <td>"+J0+"</td> <td>"+k+"</td> </tr>");
 
     });
     $('#JS_J2').click(function(){
@@ -54,6 +54,7 @@ $(document).ready(function(){
             xxz = "木球";
             LJ = lilunj_3(M,WJ);
             SJ = shijij_1(J0,T,K);
+            NJ=0;
             if(SJ<0)
             {
                 alert("输入数据有误，使得实验测量的转动惯量小于0了")
@@ -65,6 +66,7 @@ $(document).ready(function(){
             xxz = "细杆";
             LJ = lilunj_4(M,WJ);
             SJ = shijij_1(J0,T,K);
+            NJ=0;
             if(SJ<0)
             {
                 alert("输入数据有误，使得实验测量的转动惯量小于0了")
@@ -75,7 +77,7 @@ $(document).ready(function(){
         {
             alert("不懂你要人家做什么");
         }
-        $("#record_J2").append("<tr> <th>"+xxz+"</th> <th>"+M+"</th> <th>"+NJ+"</th> <th>"+WJ+"</th> <th>"+T+"</th> <th>"+K+"</th> <th>"+J0+"</th> <th>"+LJ+"</th> <th>"+SJ+"</th> <th>"+xd+"</th> </tr>");
+        $("#record_J2").append("<tr> <td>"+xxz+"</td> <td>"+M+"</td> <td>"+NJ+"</td> <td>"+WJ+"</td> <td>"+T+"</td> <td>"+K+"</td> <td>"+J0+"</td> <td>"+LJ+"</td> <td>"+SJ+"</td> <td>"+xd+"</td> </tr>");
 
     });
     /**
