@@ -15,17 +15,18 @@ $(document).ready(function(){
             v1 = 0;
         }
         else{
-            v1  = 1/v1;
+            v1  = 10/v1;
         }
-        var v2  = 1/($("#v2").val());
-        var v10 = 1/($("#v10").val());
-        var p0  = 50*m1*v10*v10;
-        var p1  = 50*m1*v1*v1+50*m2*v2*v2;
+        var v2  = 10/($("#v2").val());
+        var v10 = 10/($("#v10").val());
+        var p0  = m1*v10;
+        var p1  = m1*v1+m2*v2;
         var p = (Math.abs((p0 - p1)))/p0;
         var e = (v2 - v1)/v10;
-        var r = p1/p0;
-        p0 = p0.toFixed(4);p1 = p1.toFixed(4);
-        p = ((100*p).toFixed(2));//换算成百分比
+        var r = (0.5*m1*v1*v1+0.5*m2*v2*v2)/(0.5*m1*v10*v10);
+        p0 = (100*p0).toFixed(4);
+        p1 = (100*p1).toFixed(4);
+        p = (100*p).toFixed(2);
         e = e.toFixed(4);
         r = r.toFixed(4);
         $("#record").append("<tr> <th>"+m1+"</th> <th>"+m2+"</th> <th>"+p0+"E-2</th> <th>"+p1+"E-2</th> <th>"+p+"%</th> <th>"+e+"</th> <th>"+r+"</th> </tr>");
