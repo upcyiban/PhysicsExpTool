@@ -23,7 +23,6 @@
             <li>拓展：埃米（Ångstrom或ANG或Å）是晶体学、原子物理、超显微结构等常用的长度单位，音译为"埃"，符号为Å，1Å等于10-10m，即纳米的十分之一。它不是国际单位，是一个历史上习用的单位，这个单位名称是为纪念瑞典物理学家埃斯特朗而定的符号，其不属于国际单位体系。</li>
         </ul>
     </div>
-
     <div class="panel panel-default">
         <div class="panel-body">
             <br>
@@ -70,11 +69,11 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>左侧左游标读数</th>
-                        <th>左侧右游标读数</th>
-                        <th>右侧左游标读数</th>
-                        <th>右侧右游标读数</th>
-                        <th>波长λ</th>
+                        <th class="text-center">左侧左游标读数</th>
+                        <th class="text-center">左侧右游标读数</th>
+                        <th class="text-center">右侧左游标读数</th>
+                        <th class="text-center">右侧右游标读数</th>
+                        <th class="text-center">波长λ</th>
                     </tr>
                 </thead>
                 <tbody id="record">
@@ -82,7 +81,11 @@
             </table>
         </div>
     </div>
+
     <footer class="text-center">
+        <p class="text-left" style="font-size: smaller">
+            本页提供的内容仅用于培训和测试，我们不保证内容的正确性。通过使用本页内容随之而来的风险与本页面无关。当使用本页面时，代表您已接受了页面的使用条款。如有您在使用过程发现BUG，请及时在主页反馈。
+        </p>
         <p>Powered by upcyiban</p>
     </footer>
 </div>

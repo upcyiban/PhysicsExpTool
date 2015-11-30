@@ -11,7 +11,6 @@
     <script src="../js/dlsh.js"></script>
 </head>
 <body>
-
 <div id="container" class="container">
     <h1><strong>动量守恒定律的验证</strong></h1>
     <br>
@@ -21,7 +20,7 @@
             <li>请注意质量M的单位:Kg，T无需换算直接输入</li>
             <li>T11为滑行器1经过光电门1时间，T12为滑行器1经过光电门2时间，T22为滑行器2经过光电门2</li>
             <li>在完全非弹性碰撞：若你额外记录了T12的值，请分别填入，否则请将T12与T22填同一个数值T22。</li>
-            <li>动量单位是kg*(m/s)^2,由于计算数值太小所以使用科学计数法记录，E-3是指10^-3</li>
+            <li>动量单位是kg*(m/s)^2,由于计算数值太小所以使用科学计数法记录，E-2是指10^-2</li>
             <li>本计算结果保留四位小数，在您列表记录数据请使用修约原则来保留三位小数。</li>
         </ul>
     </div>
@@ -57,7 +56,7 @@
                     <label for="inputEmail3" class="col-sm-2 control-label">T12(单位:Ms)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="v1" placeholder="输入t12的值,如果没有则填0">
-                    </div>
+                </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
@@ -66,25 +65,25 @@
                 </div>
             </div>
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table" >
                 <thead>
                     <tr>
-                        <th>M1</th>
-                        <th>M2</th>
-                        <th>初动量P0</th>
-                        <th>末动量P1</th>
-                        <th>百分比误差</th>
-                        <th>恢复系数e(弹性）</th>
-                        <th>动能比R（非弹性）</th>
+                        <th class="text-center">初动量P0</th>
+                        <th class="text-center">末动量P1</th>
+                        <th class="text-center">百分比误差</th>
+                        <th class="text-center">恢复系数e</th>
+                        <th class="text-center">动能比R</th>
                     </tr>
                 </thead>
-                <tbody id="record">
+                <tbody id="record" >
                 </tbody>
             </table>
         </div>
     </div>
-
     <footer class="text-center">
+        <p class="text-left" style="font-size: smaller">
+           本页提供的内容仅用于培训和测试，我们不保证内容的正确性。通过使用本页内容随之而来的风险与本页面无关，当使用本页面时，代表您已接受了页面的使用条款。如有您在使用过程发现BUG，请及时在主页反馈。
+        </p>
         <p>Powered by upcyiban</p>
     </footer>
 </div>
