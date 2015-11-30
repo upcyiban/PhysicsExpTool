@@ -20,7 +20,6 @@ $(document).ready(function(){
         k = kJ(J1,T1,T0);
 
         $("#record_J0").append("<tr> <td style='word-break: break-all'>"+T0+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+T1+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+SYD+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+SYM+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+J1+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+J0+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+k+"</td style='word-break: break-all'> </tr>");
-
     });
     $('#JS_J2').click(function(){
         var   XZ= $("#XZ").val();
@@ -54,6 +53,7 @@ $(document).ready(function(){
             xxz = "木球";
             LJ = lilunj_3(M,WJ);
             SJ = shijij_1(J0,T,K);
+            NJ=0;
             if(SJ<0)
             {
                 alert("输入数据有误，使得实验测量的转动惯量小于0了")
@@ -65,6 +65,7 @@ $(document).ready(function(){
             xxz = "细杆";
             LJ = lilunj_4(M,WJ);
             SJ = shijij_1(J0,T,K);
+            NJ=0;
             if(SJ<0)
             {
                 alert("输入数据有误，使得实验测量的转动惯量小于0了")
@@ -76,7 +77,6 @@ $(document).ready(function(){
             alert("不懂你要人家做什么");
         }
         $("#record_J2").append("<tr> <td style='word-break: break-all'>"+xxz+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+M+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+NJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+WJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+T+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+K+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+J0+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+LJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+SJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+xd+"</td style='word-break: break-all'> </tr>");
-
     });
     /**
      * @return {number}
