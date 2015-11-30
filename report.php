@@ -17,7 +17,8 @@
     <br>
     <div class="panel">
         <div class="panel-body">
-            <p style="font-size: medium">很抱歉没有您需要的实验处理工具,我们会尽快继续开发.留言板业务稍后上线,届时可留言反馈您的需要.也可到石大易班发展中心提出您的宝贵意见.</p>
+            <p style="font-size: medium">很抱歉没有您需要的实验处理工具,我们会尽快继续开发.留言板业务稍后上线,届时可留言反馈您的需要.也可到石大易班发展中心提出您的宝贵意见.</p><br>
+            <p style="font-size: medium">如有略懂js,php,html的同学,可以加入我们一起完善这套辅助工具.<a href="https://github.com/upcyiban/PhysicsExpTool">github地址</a>,如不会,请在力所能及的范围内向你知道的会的大神推荐.</p>
         </div>
     </div>
     <footer class="text-center">
