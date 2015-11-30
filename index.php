@@ -27,32 +27,32 @@
         <div id="warm" class="warm"></div>
         <ul id="task-list" class="task-list">
             <a href="toolspage/gscbc.php">
-                <li>
-                    光栅测量光的波长
+                <li >
+                    <p class="report">光栅测量光的波长</p>
                 </li>
             </a>
             <a href="toolspage/dlsh.php">
-                <li>
-                    动量守恒定律的验证
+                <li >
+                    <p class="report">动量守恒定律的验证</p>
                 </li>
             </a>
             <a href="toolspage/n2dl.php">
                 <li>
-                    牛顿第二定律的验证
+                    <p class="report">牛顿第二定律的验证</p>
                 </li>
             </a>
             <a href="toolspage/fatx.php">
                 <li>
-                    电学元件的伏安特性研究
+                    <p class="report">电学元件的伏安特性研究</p>
                 </li>
             </a>
             <a href="toolspage/gtzdgldcl.php">
                 <li>
-                    刚体转动惯量的测量
+                    <p class="report">刚体转动惯量的测量</p>
                 </li>
             </a>
             <a href="report.php">
-                <li>
+                <li >
                     <p class="report">没有你想找的实验处理工具?点此反馈</p>
                 </li>
             </a>
