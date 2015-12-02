@@ -19,8 +19,8 @@ $(document).ready(function(){
         var k;
         k = kJ(J1,T1,T0);
 
-        $("#record_J0").append("<tr> <td  style='word-break: break-all'>"+T0+"</td> <td style='word-break: break-all'>"+T1+"</td> <td style='word-break: break-all'>"+SYD+"</td> <td style='word-break: break-all'>"+SYM+"</td> <td style='word-break: break-all'>"+J1+"</td> <td style='word-break: break-all'>"+J0+"</td> <td style='word-break: break-all'>"+k+"</td> </tr>");
 
+        $("#record_J0").append("<tr> <td style='word-break: break-all'>"+T0+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+T1+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+SYD+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+SYM+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+J1+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+J0+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+k+"</td style='word-break: break-all'> </tr>");
     });
     $('#JS_J2').click(function(){
         var   XZ= $("#XZ").val();
@@ -77,8 +77,8 @@ $(document).ready(function(){
         {
             alert("不懂你要人家做什么");
         }
-        $("#record_J2").append("<tr> <td style='word-break: break-all'>"+xxz+"</td> <td style='word-break: break-all'>"+M+"</td> <td style='word-break: break-all'>"+NJ+"</td> <td style='word-break: break-all'>"+WJ+"</td> <td style='word-break: break-all'>"+T+"</td> <td  style='word-break: break-all'>"+K+"</td> <td  style='word-break: break-all'>"+J0+"</td> <td style='word-break: break-all'>"+LJ+"</td> <td style='word-break: break-all'>"+SJ+"</td> <td style='word-break: break-all'>>"+xd+"</td> </tr>");
 
+        $("#record_J2").append("<tr> <td style='word-break: break-all'>"+xxz+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+M+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+NJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+WJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+T+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+K+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+J0+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+LJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+SJ+"</td style='word-break: break-all'> <td style='word-break: break-all'>"+xd+"</td style='word-break: break-all'> </tr>");
     });
     /**
      * @return {number}

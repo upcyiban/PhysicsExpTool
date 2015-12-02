@@ -1,3 +1,6 @@
+<?php
+include "iapp.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,20 +61,18 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>T0</th>
-                    <th>T1</th>
-                    <th>D</th>
-                    <th>m</th>
-                    <th>J1</th>
-                    <th>J0</th>
-                    <th>K</th>
+                    <th class="text-center">T0</th>
+                    <th class="text-center">T1</th>
+                    <th class="text-center">D</th>
+                    <th class="text-center">m</th>
+                    <th class="text-center">J1</th>
+                    <th class="text-center">J0</th>
+                    <th class="text-center">K</th>
                 </tr>
                 </thead>
                 <tbody id="record_J0">
                 </tbody>
             </table>
-
-
             </div>
         <div class="panel-body">
             <h3>转动惯量的理论值和实验值</h3>
@@ -134,16 +135,17 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th  >所算量</th>
-                    <th>m</th>
-                    <th >d</th>
-                    <th>D</th>
-                    <th>T</th>
-                    <th>k</th>
-                    <th>J0</th>
-                    <th>理论值</th>
-                    <th>实验值</th>
-                    <th>相对误差%</th>
+                    <th class="text-center">所算量</th>
+                    <th class="text-center">m</th>
+                    <th class="text-center">d</th>
+                    <th class="text-center">D</th>
+                    <th class="text-center">T</th>
+                    <th class="text-center">k</th>
+                    <th class="text-center">J0</th>
+                    <th class="text-center">理论值</th>
+                    <th class="text-center">实验值</th>
+                    <th class="text-center">相对误差%</th>
+
                 </tr>
                 </thead>
                 <tbody id="record_J2">
