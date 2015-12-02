@@ -134,9 +134,9 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>所算量</th>
+                    <th  >所算量</th>
                     <th>m</th>
-                    <th>d</th>
+                    <th >d</th>
                     <th>D</th>
                     <th>T</th>
                     <th>k</th>

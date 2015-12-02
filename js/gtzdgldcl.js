@@ -19,7 +19,7 @@ $(document).ready(function(){
         var k;
         k = kJ(J1,T1,T0);
 
-        $("#record_J0").append("<tr> <td>"+T0+"</td> <td>"+T1+"</td> <td>"+SYD+"</td> <td>"+SYM+"</td> <td>"+J1+"</td> <td>"+J0+"</td> <td>"+k+"</td> </tr>");
+        $("#record_J0").append("<tr> <td  style='word-break: break-all'>"+T0+"</td> <td style='word-break: break-all'>"+T1+"</td> <td style='word-break: break-all'>"+SYD+"</td> <td style='word-break: break-all'>"+SYM+"</td> <td style='word-break: break-all'>"+J1+"</td> <td style='word-break: break-all'>"+J0+"</td> <td style='word-break: break-all'>"+k+"</td> </tr>");
 
     });
     $('#JS_J2').click(function(){
@@ -77,7 +77,7 @@ $(document).ready(function(){
         {
             alert("不懂你要人家做什么");
         }
-        $("#record_J2").append("<tr> <td>"+xxz+"</td> <td>"+M+"</td> <td>"+NJ+"</td> <td>"+WJ+"</td> <td>"+T+"</td> <td>"+K+"</td> <td>"+J0+"</td> <td>"+LJ+"</td> <td>"+SJ+"</td> <td>"+xd+"</td> </tr>");
+        $("#record_J2").append("<tr> <td style='word-break: break-all'>"+xxz+"</td> <td style='word-break: break-all'>"+M+"</td> <td style='word-break: break-all'>"+NJ+"</td> <td style='word-break: break-all'>"+WJ+"</td> <td style='word-break: break-all'>"+T+"</td> <td  style='word-break: break-all'>"+K+"</td> <td  style='word-break: break-all'>"+J0+"</td> <td style='word-break: break-all'>"+LJ+"</td> <td style='word-break: break-all'>"+SJ+"</td> <td style='word-break: break-all'>>"+xd+"</td> </tr>");
 
     });
     /**
