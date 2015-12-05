@@ -29,6 +29,13 @@ $(document).ready(function(){
         p = (100*p).toFixed(2);
         e = e.toFixed(4);
         r = r.toFixed(4);
-        $("#record").append("<tr> <th>"+m1+"</th> <th>"+m2+"</th> <th>"+p0+"E-2</th> <th>"+p1+"E-2</th> <th>"+p+"%</th> <th>"+e+"</th> <th>"+r+"</th> </tr>");
+        $("#record").append("<tr> " +
+            "<td style='word-break: break-all'>"+m1+"</td> " +
+            "<td style='word-break: break-all'>"+m2+"</td> " +
+            "<td style='word-break: break-all'>"+p0+"E-2</td> " +
+            "<td style='word-break: break-all'>"+p1+"E-2</td> " +
+            "<td style='word-break: break-all'>"+p+"%</td> " +
+            "<td style='word-break: break-all'>"+e+"</td> " +
+            "<td style='word-break: break-all'>"+r+"</td> </tr>");
     });
 });

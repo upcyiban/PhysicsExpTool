@@ -19,6 +19,11 @@ $(document).ready(function(){
         var c = Math.abs(0.25*(a21c - a11c + a22c - a12c));alert(c);
         c = c/60/180*Math.PI;alert(c);
         var l = 0.0001*Math.sin(c)/k*Math.pow(10,9);
-        $("#record").append("<tr> <th>"+a11+"</th> <th>"+a12+"</th> <th>"+a21+"</th> <th>"+a22+"</th> <th>"+ l.toFixed(4)+"</th> </tr>");
+        $("#record").append("<tr> <td style='word-break: break-all'>"+a11+"</td> " +
+            "<td style='word-break: break-all'>"+a12+"</td>"  +
+            "<td style='word-break: break-all'>"+a21+"</td> " +
+            "<td style='word-break: break-all'>"+a22+"</td>"  +
+            "<td style='word-break: break-all'>"+ l.toFixed(4)+"</td> " +
+            "</tr>");
     });
 });
