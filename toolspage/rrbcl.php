@@ -44,12 +44,6 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">T0(单位:℃)</label>
-                    <div class="col-sm-8">
-                        <input type="text" class="form-control" id="t0" placeholder="输入t22的值">
-                    </div>
-                </div>
-                <div class="form-group">
                     <div class="col-sm-12">
                         <button id="rrbcl" class="btn btn-default">计算</button>
                     </div>
