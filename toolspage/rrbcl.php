@@ -59,10 +59,10 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>输入数据</th>
-                    <th>p1</th>
-                    <th>p2</th>
-                    <th>绝热指数</th>
+                    <th style="text-align: center">输入数据</th>
+                    <th style="text-align: center">p1</th>
+                    <th style="text-align: center">p2</th>
+                    <th style="text-align: center">绝热指数</th>
                 </tr>
                 </thead>
                 <tbody id="record">
