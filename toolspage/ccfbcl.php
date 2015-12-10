@@ -19,18 +19,41 @@
             <br>
             <div class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">实际位置x'</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">输入类型</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="x" placeholder="测量实际位置x'">
+                        <input type="text" class="form-control" id="c" placeholder="1为载流线圈，2为亥姆霍兹">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">B</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">x' & B1</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="b1" placeholder="请输入测量输入值B">
+                        <input type="text" class="form-control" id="x" placeholder="测量实际位置x' 或 B1">
                     </div>
                 </div>
-
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">B & B2</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="b" placeholder="测量值B 或 B2">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">N</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="n" placeholder="匝数（实验2无需填写）">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">R</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="r" placeholder="载流线圈半径（实验2无需填写）">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">I</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="i" placeholder="激励电流（实验2无需填写）">
+                    </div>
+                </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
@@ -42,10 +65,8 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>X'</th>
-                    <th>B</th>
-                    <th>B1</th>
-                    <th>相对误差</th>
+                    <th style="text-align: center">输入数据</th>
+                    <th style="text-align: center">相对误差 或 B1+B2</th>
                 </tr>
                 </thead>
                 <tbody>
