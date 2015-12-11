@@ -14,16 +14,17 @@
 <div id="container" class="container">
     <h1><strong>空气比热容的测量</strong></h1>
     <br>
-    <div class="panel panel-default"  >
-        <p style="text-align: left"><strong>注释：</strong></p>
-        <ul style="text-align: left">
-            <li>填写时请注意单位</li>
-            <li>本计算结果保留四位小数，在您记录数据请请使用修约原则来处理数据。</li>
-        </ul>
-    </div>
     <div class="panel panel-default">
         <div class="panel-body">
             <br>
+            <div class="panel panel-default"  >
+                <p style="text-align: left"><strong>注释：</strong></p>
+                <ul style="text-align: left">
+                    <li>填写时请注意单位</li>
+                    <li>平均值请您按照历史数据求出</li>
+                    <li>本计算结果保留四位小数，在您记录数据请请使用修约原则来处理数据。</li>
+                </ul>
+            </div>
             <div class="form-horizontal">
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">Up1(单位:mV)</label>
