@@ -16,26 +16,22 @@ $(document).ready(function () {
         var i = $('#i').val();
         Number(i);
         var input;
+        var rr;
         if (c == 1) {
-
-            var u = 4 * Math.PI * Math.pow(10, -7);
-            var b1 = 0.5 * (u * n * i * r * r) / Math.pow((r * r + x * x), 1.5);
-            var rr = Math.abs((b1 - b) / b) * 100;
-            input = b + "-" + x + "-" + n + "-" + r + "-" + i;
+            var b1 = 0.5 * (4 * Math.PI *0.0001 * n * i * r * r) /(Math.pow((r * r + x * x), 1.5));
+            rr = (100*(Math.abs(b1 - b) / b1)).toFixed(2) +"%";
+            input = x + "ï¼Œ" + b + "ï¼Œ" + n + "ï¼Œ" + r + "ï¼Œ" + i;
         }
         else if (c == 2) {
-            rr = x + b;
-            input = b + "-" + x;
+            rr = (Number(x) + Number(b)).toFixed(4);
+            input = b + "ï¼Œ" + x;
         }
         else {
-            alert("ÖØĞÂÊäÈëÊäÈëÀàĞÍQAQ");
+            alert("é‡æ–°è¾“å…¥è¾“å…¥ç±»å‹QAQ");
             return
         }
 
 
-        $('#record').append("<tr><td style='word-break: break-all'>" + x + "</td>" +
-            "<td style='word-break: break-all'>" + b + "</td> " +
-            "<td style='word-break: break-all'>" + b1 + "</td> " +
-            "<td style='word-break: break-all'>" + rr.toFixed(2) + "%</td></tr>");
+        $('#record').append("<tr><td style='word-break: break-all'>"+c+"</td><td style='word-break: break-all' >" + input + "</td> <td style='word-break: break-all '>" + rr + "</td></tr>");
     });
 })

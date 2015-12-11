@@ -53,10 +53,10 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th style="text-align: center">输入数据</th>
-                    <th style="text-align: center">p1</th>
-                    <th style="text-align: center">p2</th>
-                    <th style="text-align: center">绝热指数</th>
+                    <th style="word-break: break-all;text-align: center">输入数据</th>
+                    <th style="word-break: break-all;text-align: center">p1</th>
+                    <th style="word-break: break-all;text-align: center">p2</th>
+                    <th style="word-break: break-all;text-align: center">绝热指数</th>
                 </tr>
                 </thead>
                 <tbody id="record">
@@ -64,7 +64,6 @@
             </table>
         </div>
     </div>
-
     <footer class="text-center">
         <p>Powered by upcyiban</p>
     </footer>
