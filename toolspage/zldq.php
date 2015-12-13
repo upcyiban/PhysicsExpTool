@@ -58,7 +58,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <button id="JS_J0" class="btn btn-default">计算</button>
+                        <button id="DB" class="btn btn-default">计算</button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                     <th class="text-center">S</th>
                 </tr>
                 </thead>
-                <tbody id="record_J0">
+                <tbody id="record_DB">
                 </tbody>
             </table>
         </div>
@@ -113,7 +113,7 @@
                     <th class="text-center">ρ</th>
                 </tr>
                 </thead>
-                <tbody id="record_J2">
+                <tbody id="record_SB">
                 </tbody>
             </table>
         </div>
