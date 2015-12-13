@@ -1,9 +1,10 @@
 $(document).ready(function(){
-    $('#JS_J0').click(function(){
-        var   SYM= $("#SYM").val();
-        var   SYD= $("#SYD").val();
-        var    T0= $("#T0").val();
-        var    T1= $("#T1").val();
+    $('#DB').click(function(){
+        var   RXb= $("#RXb").val();
+        var   arf= $("#arf").val();
+        var    blc= $("#blc").val();
+        var    bn= $("#bn").val();
+
 
         var J1;
         J1 = lilunj_1(SYM,SYD);
@@ -20,7 +21,7 @@ $(document).ready(function(){
             " <td style='word-break: break-all'>"+J0+"</td style='word-break: break-all'>" +
             " <td style='word-break: break-all'>"+k+"</td style='word-break: break-all'> </tr>");
     });
-    $('#JS_J2').click(function(){
+    $('#SB').click(function(){
         var   XZ= $("#XZ").val();
         var   M= $("#M").val();
         var   NJ= $("#NJ").val();
@@ -53,11 +54,6 @@ $(document).ready(function(){
             "<td style='word-break: break-all'>"+M+"</td style='word-break: break-all'> " +
             "<td style='word-break: break-all'>"+NJ+"</td style='word-break: break-all'> " +
             "<td style='word-break: break-all'>"+WJ+"</td style='word-break: break-all'>" +
-            " <td style='word-break: break-all'>"+T+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+K+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+J0+"</td style='word-break: break-all'>" +
-            " <td style='word-break: break-all'>"+LJ+"</td style='word-break: break-all'>" +
-            " <td style='word-break: break-all'>"+SJ+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+xd+"</td style='word-break: break-all'> </tr>");
+            " </tr>");
     });
 });
