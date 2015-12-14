@@ -13,6 +13,8 @@
 <body>
 <div id="container" class="container">
     <h1 align="center">问题反馈</h1>
+    <br>
+    <br>
     <ul class="list-group">
         <?php
         include "conn.php";
@@ -51,5 +53,15 @@
         <input id="liuyan" type="text" class="new-task-inp" name="content" value="">
         <input type="submit" class="btn btn-lg btn-primary" value="留言">
     </form>
+    <br>
+    <br>
+    <div class="panel">
+        <div class="panel-body">
+            <p style="font-size: medium">如果有懂得js，php，html的同学可以一起加入我们，来完善这套辅助工具<a href="https://github.com/upcyiban/PhysicsExpTool">github地址</a>，如若不会，请在力所能及范围内向你所知道懂行的大神推荐吧！</p>
+        </div>
+        <footer class="text-center">
+            <p>Powered by upcyiban</p>
+        </footer>
+    </div>
 </body>
 </html>
