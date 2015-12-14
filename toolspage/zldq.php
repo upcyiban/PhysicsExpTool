@@ -9,7 +9,7 @@
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/main.js"></script>
-    <script src="../js/gtzdgldcl.js"></script>
+    <script src="../js/zldq.js"></script>
 </head>
 <body>
 <div id="container" class="container">
@@ -41,7 +41,7 @@
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">R0/Ω</label>
                     <div class="col-sm-8">
-                        <input id="R0_1" type="text" class="form-control" value="输入R0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="R01" type="text" class="form-control" value="输入R0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -66,9 +66,13 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th class="text-center">输入数据：</th>
+                    <th class="text-center">待测电阻标称值</th>
+                    <th class="text-center">准确度等级指数α</th>
+                    <th class="text-center">比率读数C</th>
+                    <th class="text-center">R0</th>
+                    <th class="text-center">δR0</th>
+                    <th class="text-center">δn</th>
                     <th class="text-center">Rx</th>
-                    <th class="text-center">U_Rx</th>
                     <th class="text-center">S</th>
                 </tr>
                 </thead>
@@ -76,6 +80,36 @@
                 </tbody>
             </table>
         </div>
+        <div class="panel-body">
+            <h3>不确定度Ux</h3>
+            <div class="form-horizontal">
+                <br/>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Rx</label>
+                    <div class="col-sm-8">
+                        <input id="Rx2" type="text" class="form-control" value="输入Rx" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <button id="ux" class="btn btn-default">计算</button>
+                    </div>
+                </div>
+            </div>
+            <h2>历史记录</h2>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th class="text-center">Rx</th>
+                    <th class="text-center">Rx平均值</th>
+                    <th class="text-center">Ux</th>
+                </tr>
+                </thead>
+                <tbody id="record_Ux">
+                </tbody>
+            </table>
+        </div>
+
         <div class="panel-body">
             <h3>双臂电桥</h3>
             <div class="form-horizontal">
@@ -89,7 +123,7 @@
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">R0/Ω</label>
                     <div class="col-sm-8">
-                        <input id="R0_2" type="text" class="form-control" value="输入R0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="R02" type="text" class="form-control" value="输入R0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
