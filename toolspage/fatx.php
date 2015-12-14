@@ -56,12 +56,9 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>U1</th>
-                    <th>I1</th>
-                    <th>U2</th>
-                    <th>I2</th>
-                    <th>A</th>
-                    <th>B</th>
+                    <th style="word-break: break-all">输入数据</th>
+                    <th style="word-break: break-all">A</th>
+                    <th style="word-break: break-all">B</th>
                 </tr>
                 </thead>
                 <tbody id="record">
