@@ -8,7 +8,7 @@ $(document).ready(function(){
         var    bn= $("#bn").val();
 
         var Rx;
-        Rx = SRx(a,c1,R01);
+        Rx = SRx(c1,R01);
 
         var S;
         S = SS(bn,bR0,R01);
@@ -18,7 +18,6 @@ $(document).ready(function(){
             "<td style='word-break: break-all'>"+RX1+"</td style='word-break: break-all'> " +
             " <td style='word-break: break-all'>"+a+"</td style='word-break: break-all'>" +
             " <td style='word-break: break-all'>"+c1+"</td style='word-break: break-all'> " +
-            " <td style='word-break: break-all'>"+c1+"</td style='word-break: break-all'> " +
             " <td style='word-break: break-all'>"+R01+"</td style='word-break: break-all'> " +
             " <td style='word-break: break-all'>"+bR0+"</td style='word-break: break-all'> " +
             " <td style='word-break: break-all'>"+bn+"</td style='word-break: break-all'> " +
@@ -27,10 +26,21 @@ $(document).ready(function(){
             "</tr>");
     });
     $('#ux').click(function(){
-        var   Rx2= $("#Rx2").val();
 
-
-        var U;
+        for(;;)
+        {
+            var   Rx2= $("#Rx2").val();
+            if(Rx2 == 0)
+            {
+                alert("你输入了0，表示输入结束,再输入的数据将无效")
+                break;
+            }
+            else
+            {
+                var sum;
+                sum += UxSum(Rx2);
+            }
+        }
 
 
             $("#record_Ux").append(
@@ -46,14 +56,16 @@ $(document).ready(function(){
         var   R02= $("#R02").val();
         var   RxL= $("#RxL").val();
 
+        var Rx3;
+        Rx3 = SRx(c2,R02);
         $("#record_SB").append("<tr>" +
-            " <td style='word-break: break-all'>"+xxz+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+M+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+NJ+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+WJ+"</td style='word-break: break-all'>" +
+            " <td style='word-break: break-all'>"+c2+"</td style='word-break: break-all'> " +
+            "<td style='word-break: break-all'>"+R02+"</td style='word-break: break-all'> " +
+            "<td style='word-break: break-all'>"+RxL+"</td style='word-break: break-all'> " +
+            "<td style='word-break: break-all'>"+Rx3+"</td style='word-break: break-all'>" +
             " </tr>");
     });
-    function SRx(a,c,R0){
+    function SRx(c,R0){
         var rx;
         rx = c*R0;
         return rx;
@@ -63,7 +75,7 @@ $(document).ready(function(){
         s = bn/(bR0/R0);
         return s;
     }
-    function SUx(){
-        
+    function UxSum(x){
+        var ux;
     }
 });

@@ -85,11 +85,40 @@
             <div class="form-horizontal">
                 <br/>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">Rx</label>
-                    <div class="col-sm-8">
-                        <input id="Rx2" type="text" class="form-control" value="输入Rx" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                    <div class="col-sm-12">
+                        <table border="1" width="100%">
+                            <tr>
+                                <td>数据1</td>
+                                <td>数据2</td>
+                                <td>数据3</td>
+                                <td>数据4</td>
+                                <td>数据5</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="Shu1" type="text" class="form-control" value="输入数据5" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                                </td>
+                                <td>
+                                    <input id="Shu2" type="text" class="form-control" value="输入数据1" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                                </td>
+                                <td>
+                                    <input id="Shu3" type="text" class="form-control" value="输入数据2" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                                </td>
+                                <td>
+                                    <input id="Shu4" type="text" class="form-control" value="输入数据3" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                                </td>
+                                <td>
+                                    <input id="Shu5" type="text" class="form-control" value="输入数据4" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                                </td>
+
+                            </tr>
+                        </table>
                     </div>
                 </div>
+            </div>
+            <div class="form-horizontal">
+                <br/>
+
                 <div class="form-group">
                     <div class="col-sm-12">
                         <button id="ux" class="btn btn-default">计算</button>
@@ -100,7 +129,7 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th class="text-center">Rx</th>
+                    <th class="text-center">历史数据</th>
                     <th class="text-center">Rx平均值</th>
                     <th class="text-center">Ux</th>
                 </tr>
