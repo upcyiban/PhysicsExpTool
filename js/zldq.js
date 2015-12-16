@@ -26,43 +26,33 @@ $(document).ready(function(){
             "</tr>");
     });
     $('#ux').click(function(){
+        var   Shu1= $("#Shu1").val();
+        var   Shu3= $("#Shu3").val();
+        var   Shu2= $("#Shu2").val();
+        var   Shu4= $("#Shu4").val();
+        var   Shu5= $("#Shu5").val();
 
-        for(;;)
-        {
-            var   Rx2= $("#Rx2").val();
-            if(Rx2 == 0)
-            {
-                alert("你输入了0，表示输入结束,再输入的数据将无效")
-                break;
-            }
-            else
-            {
-                var sum;
-                sum += UxSum(Rx2);
-            }
-        }
-
+        var Ux = UxSum(Shu1,Shu2,Shu3,Shu4,Shu5);
 
             $("#record_Ux").append(
             "<tr> " +
-            "<td style='word-break: break-all'>"+xxz+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+M+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+NJ+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+WJ+"</td style='word-break: break-all'>" +
+            "<td style='word-break: break-all'>"+Shu1+","+Shu2+","+Shu3+","+Shu4+","+Shu5+"</td style='word-break: break-all'>" +
+            "<td style='word-break: break-all'>"+Ux+"</td style='word-break: break-all'>" +
             " </tr>");
     });
     $('#SB').click(function(){
         var   c2= $("#c2").val();
         var   R02= $("#R02").val();
         var   RxL= $("#RxL").val();
-
+        var   d= $("#d").val();
         var Rx3;
         Rx3 = SRx(c2,R02);
+        var rou;
+        rou = DianZuLv(Rx3,RxL,d);
         $("#record_SB").append("<tr>" +
-            " <td style='word-break: break-all'>"+c2+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+R02+"</td style='word-break: break-all'> " +
-            "<td style='word-break: break-all'>"+RxL+"</td style='word-break: break-all'> " +
+            " <td style='word-break: break-all'>"+c2+","+R02+","+RxL+"</td style='word-break: break-all'> " +
             "<td style='word-break: break-all'>"+Rx3+"</td style='word-break: break-all'>" +
+            "<td style='word-break: break-all'>"+rou+"</td style='word-break: break-all'>" +
             " </tr>");
     });
     function SRx(c,R0){
@@ -75,7 +65,21 @@ $(document).ready(function(){
         s = bn/(bR0/R0);
         return s;
     }
-    function UxSum(x){
-        var ux;
+    function UxSum(Shu1,Shu2,Shu3,Shu4,Shu5){
+        var sum;
+        var pin;
+        pin = (Shu1+Shu2+Shu3+Shu4+Shu5)/5;
+        sum = (Shu1-pin)*(Shu1-pin)+(Shu2-pin)*(Shu2-pin)+(Shu3-pin)*(Shu3-pin)+(Shu4-pin)*(Shu4-pin)+(Shu5-pin)*(Shu5-pin);
+        sum = sum/20;
+        sum = Math.sqrt(sum);
+        return sum;
+    }
+    function  DianZuLv(r,l,d)
+    {
+        var x;
+        var s;
+        s = Math.PI*d*d/4;
+        x = r*s/l;
+        return x;
     }
 });
