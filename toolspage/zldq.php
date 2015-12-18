@@ -81,63 +81,6 @@
             </table>
         </div>
         <div class="panel-body">
-            <h3>不确定度Ux</h3>
-            <div class="form-horizontal">
-                <br/>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据1</label>
-                    <div class="col-sm-8">
-                        <input id="Shu1" type="text" class="form-control" value="输入数据1" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据2</label>
-                    <div class="col-sm-8">
-                        <input id="Shu2" type="text" class="form-control" value="输入数据2" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据3</label>
-                    <div class="col-sm-8">
-                        <input id="Shu3" type="text" class="form-control" value="输入数据3" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据4</label>
-                    <div class="col-sm-8">
-                        <input id="Shu4" type="text" class="form-control" value="输入数据4" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据5</label>
-                    <div class="col-sm-8">
-                        <input id="Shu5" type="text" class="form-control" value="输入数据5" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-            </div>
-            <div class="form-horizontal">
-                <br/>
-
-                <div class="form-group">
-                    <div class="col-sm-12">
-                        <button id="ux" class="btn btn-default">计算</button>
-                    </div>
-                </div>
-            </div>
-            <h2>历史记录</h2>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th class="text-center">历史数据</th>
-                    <th class="text-center">Ux</th>
-                </tr>
-                </thead>
-                <tbody id="record_Ux">
-                </tbody>
-            </table>
-        </div>
-
-        <div class="panel-body">
             <h3>双臂电桥</h3>
             <div class="form-horizontal">
                 <br/>

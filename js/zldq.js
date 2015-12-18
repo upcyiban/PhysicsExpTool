@@ -32,7 +32,8 @@ $(document).ready(function(){
         var   Shu4= $("#Shu4").val();
         var   Shu5= $("#Shu5").val();
 
-        var Ux = UxSum(Shu1,Shu2,Shu3,Shu4,Shu5);
+        var Ux;
+        Ux= UxSum(Shu1,Shu2,Shu3,Shu4,Shu5);
 
             $("#record_Ux").append(
             "<tr> " +
@@ -47,6 +48,7 @@ $(document).ready(function(){
         var   d= $("#d").val();
         var Rx3;
         Rx3 = SRx(c2,R02);
+        d = d/1000;
         var rou;
         rou = DianZuLv(Rx3,RxL,d);
         $("#record_SB").append("<tr>" +
@@ -69,16 +71,14 @@ $(document).ready(function(){
         var sum;
         var pin;
         pin = (Shu1+Shu2+Shu3+Shu4+Shu5)/5;
-        sum = (Shu1-pin)*(Shu1-pin)+(Shu2-pin)*(Shu2-pin)+(Shu3-pin)*(Shu3-pin)+(Shu4-pin)*(Shu4-pin)+(Shu5-pin)*(Shu5-pin);
-        sum = sum/20;
-        sum = Math.sqrt(sum);
+        sum =Math.sqrt( ((Shu1-pin)*(Shu1-pin)+(Shu2-pin)*(Shu2-pin)+(Shu3-pin)*(Shu3-pin)+(Shu4-pin)*(Shu4-pin)+(Shu5-pin)*(Shu5-pin))/20);
         return sum;
     }
     function  DianZuLv(r,l,d)
     {
         var x;
         var s;
-        s = Math.PI*d*d/4;
+        s = Math.PI*d*d/4/1000/1000;
         x = r*s/l;
         return x;
     }
