@@ -13,20 +13,20 @@
 <body>
 <div id="container" class="container">
     <h1><strong>光栅测量光的波长</strong></h1>
-    <div class="panel panel-default" style="text-align: left">
-        <p><strong>注释：</strong></p>
-        <ul style="text-align: left">
-            <li>数据书写方式请参考35°3′--->35.03</li>
-            <li>为了方便输入，可以把左右条纹顺序颠倒。</li>
-            <li>波长单位是nm(也可采用Å，1nm = 10Å）</li>
-            <li>本计算结果保留四位小数，在您列表记录数据请使用修约原则来保留三位小数。</li>
-            <li>拓展：埃米（Ångstrom或ANG或Å）是晶体学、原子物理、超显微结构等常用的长度单位，音译为"埃"，符号为Å，1Å等于10-10m，即纳米的十分之一。它不是国际单位，是一个历史上习用的单位，这个单位名称是为纪念瑞典物理学家埃斯特朗而定的符号，其不属于国际单位体系。</li>
-        </ul>
-    </div>
-
     <div class="panel panel-default">
         <div class="panel-body">
             <br>
+            <div class="panel panel-default" style="text-align: left">
+                <p><strong>注释：</strong></p>
+                <ul style="text-align: left">
+                    <li>在使用之前，我们建议先把您计算的数值和工具计算的数值相校对，确认正确后使用</li>
+                    <li>数据书写方式请参考35°3′--->35.03</li>
+                    <li>为了方便输入，可以把左右条纹顺序颠倒。</li>
+                    <li>波长单位是nm(也可采用Å，1nm = 10Å）</li>
+                    <li>本计算结果保留四位小数，在您列表记录数据请使用修约原则来保留三位小数。</li>
+                    <li>拓展：埃米（Ångstrom或ANG或Å）是晶体学、原子物理、超显微结构等常用的长度单位，音译为"埃"，符号为Å，1Å等于10-10m，即纳米的十分之一。它不是国际单位，是一个历史上习用的单位，这个单位名称是为纪念瑞典物理学家埃斯特朗而定的符号，其不属于国际单位体系。</li>
+                </ul>
+            </div>
             <div class="form-horizontal">
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">级次k</label>
@@ -70,11 +70,11 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>左侧左游标读数</th>
-                        <th>左侧右游标读数</th>
-                        <th>右侧左游标读数</th>
-                        <th>右侧右游标读数</th>
-                        <th>波长λ</th>
+                        <th style="word-break: break-all;text-align: center">左侧左游标读数</th>
+                        <th style="word-break: break-all;text-align: center">左侧右游标读数</th>
+                        <th style="word-break: break-all;text-align: center">右侧左游标读数</th>
+                        <th style="word-break: break-all;text-align: center">右侧右游标读数</th>
+                        <th style="word-break: break-all;text-align: center">波长λ</th>
                     </tr>
                 </thead>
                 <tbody id="record">

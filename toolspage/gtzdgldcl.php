@@ -1,6 +1,3 @@
-<?php
-include "iapp.php";
-?>
 <!DOCTYPE html>
 <html>
 <head>
