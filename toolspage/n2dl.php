@@ -46,23 +46,19 @@
                         <input type="text" class="form-control" id="s" placeholder="请输入两个光电门的距离s">
                     </div>
                 </div>
-                <h2>当合外力不变时计算M*a</h2>
+
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">M(单位：kg)</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">m1</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="M" placeholder="请输入系统的总质量">
+                        <input type="text" class="form-control" id="M1" placeholder="请输入M1">
                     </div>
                 </div>
-                <h2>当系统总质量不变时计算F/a</h2>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">F(单位：N)</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">m2</label>
                     <div class="col-sm-8">
-                        <input type="text" class="form-control" id="F" placeholder="请输入外力F">
+                        <input type="text" class="form-control" id="M2" placeholder="请输入M2">
                     </div>
                 </div>
-
-
-
                 <div class="form-group">
                     <div class="col-sm-12">
                         <button id="n2dlbtn" class="btn btn-default">计算</button>
@@ -74,12 +70,13 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>光电门的宽度x</th>
-                    <th>第一次通过光电门的时间t1</th>
-                    <th>第二次通过光电门的时间t2</th>
-                    <th>两个光电门的距离s</th>
-                    <th>系统的总质量(外力F)</th>
-                    <th>计算结果</th>
+                    <th>历史数据</th>
+                    <th>a实</th>
+                    <th>a理论</th>
+                    <th>F实</th>
+                    <th>F理论</th>
+                    <th>Ba(%)</th>
+                    <th>BF(%)</th>
                 </tr>
                 </thead>
                 <tbody id="record">
