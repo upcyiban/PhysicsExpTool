@@ -43,13 +43,13 @@ $(document).ready(function () {
             FL = FL.toFixed(4);
             FS = FS.toFixed(4);
             bf = bf.toFixed(1);
-                $("#record").append("<tr>  <td style='word-break: break-all'>" + x1 + "<br>" + t1 + "<br> " + t2 + "<br> " + s +"<br> " + M1 +" <br>" + M2 + "</td> " +
-                    "<td style='word-break: break-all'>" + a + "</td> " +
-                    " <td style='word-break: break-all'>" + aL + "</td>" +
-                    "<td style='word-break: break-all'>" + FS + "</td> " +
-                    "<td style='word-break: break-all'>" + FL + "</td> " +
-                    " <td style='word-break: break-all'>" + ba + "</td>" +
-                    "<td style='word-break: break-all'>" + bf + "</td>  </tr>");
+            $("#record").append("<tr>  <td style='word-break: break-all'>" + x1 + "<br>" + t1 + "<br> " + t2 + "<br> " + s +"<br> " + M1 +"<br>" + M2 + "</td> " +
+            "<td style='word-break: break-all'>" + a + "</td> " +
+            " <td style='word-break: break-all'>" + aL + "</td>" +
+            "<td style='word-break: break-all'>" + FS + "</td> " +
+            "<td style='word-break: break-all'>" + FL + "</td> " +
+            " <td style='word-break: break-all'>" + ba + "</td>" +
+            "<td style='word-break: break-all'>" + bf + "</td>  </tr>");
         }
     });
     function SB(L,S){
@@ -58,3 +58,5 @@ $(document).ready(function () {
         return b;
     }
 });
+
+
