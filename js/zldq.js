@@ -9,18 +9,13 @@ $(document).ready(function(){
 
         var Rx;
         Rx = SRx(c1,R01);
-
+        Rx  = Rx.toFixed(3);
         var S;
         S = SS(bn,bR0,R01);
-
+        S  = S.toFixed(3);
         $("#record_DB").append(
             "<tr> " +
-            "<td style='word-break: break-all'>"+RX1+"</td style='word-break: break-all'> " +
-            " <td style='word-break: break-all'>"+a+"</td style='word-break: break-all'>" +
-            " <td style='word-break: break-all'>"+c1+"</td style='word-break: break-all'> " +
-            " <td style='word-break: break-all'>"+R01+"</td style='word-break: break-all'> " +
-            " <td style='word-break: break-all'>"+bR0+"</td style='word-break: break-all'> " +
-            " <td style='word-break: break-all'>"+bn+"</td style='word-break: break-all'> " +
+            "<td style='word-break: break-all'>"+RX1+" <br/>"+a+"<br/>" +c1+"<br/> " +R01 + " <br/>"+bR0 + "<br/>"+bn+"</td style='word-break: break-all'> " +
             " <td style='word-break: break-all'>"+Rx+"</td style='word-break: break-all'> " +
             " <td style='word-break: break-all'>"+S+"</td style='word-break: break-all'> " +
             "</tr>");
@@ -37,9 +32,10 @@ $(document).ready(function(){
 
             $("#record_Ux").append(
             "<tr> " +
-            "<td style='word-break: break-all'>"+Shu1+","+Shu2+","+Shu3+","+Shu4+","+Shu5+"</td style='word-break: break-all'>" +
+            "<td style='word-break: break-all'>"+Shu1+"<br>"
+            +Shu2+"<br>"+Shu3+"<br>"+Shu4+"<br>"+Shu5+"</td style='word-break: break-all'>" +
             "<td style='word-break: break-all'>"+Ux+"</td style='word-break: break-all'>" +
-            " </tr>");
+            "</tr>");
     });
     $('#SB').click(function(){
         var   c2= $("#c2").val();
@@ -51,8 +47,10 @@ $(document).ready(function(){
         d = d/1000;
         var rou;
         rou = DianZuLv(Rx3,RxL,d);
+        Rx3  = Rx3.toFixed(3);
+        rou  = rou.toFixed(3);
         $("#record_SB").append("<tr>" +
-            " <td style='word-break: break-all'>"+c2+","+R02+","+RxL+"</td style='word-break: break-all'> " +
+            " <td style='word-break: break-all'>"+c2+"<br>"+R02+"<br>"+RxL+"</td style='word-break: break-all'> " +
             "<td style='word-break: break-all'>"+Rx3+"</td style='word-break: break-all'>" +
             "<td style='word-break: break-all'>"+rou+"</td style='word-break: break-all'>" +
             " </tr>");
@@ -78,7 +76,7 @@ $(document).ready(function(){
     {
         var x;
         var s;
-        s = Math.PI*d*d/4/1000/1000;
+        s = Math.PI*d*d;
         x = r*s/l;
         return x;
     }

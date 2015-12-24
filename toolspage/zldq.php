@@ -66,14 +66,9 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th class="text-center">待测电阻标称值</th>
-                    <th class="text-center">准确度等级指数α</th>
-                    <th class="text-center">比率读数C</th>
-                    <th class="text-center">R0</th>
-                    <th class="text-center">δR0</th>
-                    <th class="text-center">δn</th>
-                    <th class="text-center">Rx</th>
-                    <th class="text-center">S</th>
+                    <td class="text-center">输入数据</td>
+                    <td class="text-center">Rx</td>
+                    <td class="text-center">S</td>
                 </tr>
                 </thead>
                 <tbody id="record_DB">
@@ -118,9 +113,9 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th class="text-center">输入数据</th>
-                    <th class="text-center">Rx</th>
-                    <th class="text-center">ρ</th>
+                    <td class="text-center">输入数据</td>
+                    <td class="text-center">Rx</td>
+                    <td class="text-center">ρ</td>
                 </tr>
                 </thead>
                 <tbody id="record_SB">
