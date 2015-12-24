@@ -70,13 +70,13 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>历史数据</th>
-                    <th>a实</th>
-                    <th>a理论</th>
-                    <th>F实</th>
-                    <th>F理论</th>
-                    <th>Ba(%)</th>
-                    <th>BF(%)</th>
+                    <td>历史数据</td>
+                    <td>a实</td>
+                    <td>a理论</td>
+                    <td>F实</td>
+                    <td>F理论</td>
+                    <td>Ba(%)</td>
+                    <td>BF(%)</td>
                 </tr>
                 </thead>
                 <tbody id="record">
