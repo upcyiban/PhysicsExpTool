@@ -28,7 +28,7 @@ include "iapp.php";
     <h1>大物实验数据<br>辅助处理工具</h1>
 
     <p class="sta">
-        &nbsp;当前已开发 <span>7</span> 个工具&nbsp;
+        &nbsp;当前已开发 <span>9</span> 个工具&nbsp;
     </p>
     <!--    <div class="search">-->
     <!--        <input class="searchinput" type="text">&nbsp;&nbsp;<button class="btn">搜索</button>-->
@@ -59,6 +59,16 @@ include "iapp.php";
             <a href="toolspage/gtzdgldcl.php">
                 <li>
                     <p class="report">刚体转动惯量的测量</p>
+                </li>
+            </a>
+            <a href="toolspage/zldq.php">
+                <li>
+                    <p class="report">直流电桥及其使用</p>
+                </li>
+            </a>
+            <a href="toolspage/ytbmzl.php">
+                <li>
+                    <p class="report">液体表面张力系数的测量</p>
                 </li>
             </a>
             <a href="toolspage/rrbcl.php">
