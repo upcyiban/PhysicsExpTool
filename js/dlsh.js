@@ -29,10 +29,7 @@ $(document).ready(function () {
         p = (100 * p).toFixed(2);
         e = e.toFixed(4);
         r = r.toFixed(4);
-        v10 = v10.toFixed(4);
-        v1 = v1.toFixed(4);
-        v2 = v2.toFixed(4);
-        var i = m1+"/"+m2+"/"+v10+"/"+v1+"/"+v2;
+        var i = m1+"，"+m2;
         $("#record").append("<tr> " +
             "<td style='word-break: break-all'>" + i + "</td> " +
             "<td style='word-break: break-all'>" + p0 + "E-2/" + p0 + "E-2</td> " +
