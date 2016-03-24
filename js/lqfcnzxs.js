@@ -7,46 +7,19 @@ $(document).ready(function () {
         var m = $('#m').val();
         var v0 = $('#v0').val();
         var d = $('#d').val();
+        m = m/ 1000;
+        var r=d/2;
+        var p =950/(1+0.0005*T)*r*r*r;
+        var V=4/3*3.14*r;
+        var nzxs;
+        nzxs=(m-p*V)*9.8/(3*3.14*d*v0);
+        var Re=d*v0*p/nzxs;
 
-          m = m/ 1000;
+            $("#record").append("<tr>  <td style='word-break: break-all'>" + T + "<br>" + m + "<br> " + v0 + "<br> " + d + "</td>"+
+                "<td style='word-break: break-all'>" + p + "</td> " +
+                " <td style='word-break: break-all'>" + nzxs + "</td>" +
+                "<td style='word-break: break-all'>" + Re+ "</td>  </tr>");
 
-        var aL;
-        var p =950/(1+0.0005*T);
-
-        var M1 = $('#M1').val();
-        var  M2= $('#M2').val();
-        M1 = M1 / 1000;
-        M2 = M2 / 1000;
-        aL = M2*9.8/(M1+M2);
-        var FL;
-        var FS;
-        FL = M2*aL;
-        FS = M2*a;
-        var ba;
-        var bf;
-        ba = SB(aL,a);
-        bf = SB(FL,FS);
-
-        if (a != 0) {
-            aL = aL.toFixed(2);
-            a = a.toFixed(2);
-            x1 = (x1*1000).toFixed(0);
-            t1 = (1000*t1).toFixed(2);
-            t2 = (t2*1000).toFixed(2);
-            M1 = (M1*1000).toFixed(1);
-            M2 = (M2*1000).toFixed(1);
-            ba = ba.toFixed(1);
-            FL = FL.toFixed(4);
-            FS = FS.toFixed(4);
-            bf = bf.toFixed(1);
-            $("#record").append("<tr>  <td style='word-break: break-all'>" + x1 + "<br>" + t1 + "<br> " + t2 + "<br> " + s +"<br> " + M1 +"<br>" + M2 + "</td> " +
-                "<td style='word-break: break-all'>" + a + "</td> " +
-                " <td style='word-break: break-all'>" + aL + "</td>" +
-                "<td style='word-break: break-all'>" + FS + "</td> " +
-                "<td style='word-break: break-all'>" + FL + "</td> " +
-                " <td style='word-break: break-all'>" + ba + "</td>" +
-                "<td style='word-break: break-all'>" + bf + "</td>  </tr>");
-        }
     });
     function SB(L,S){
         var b;

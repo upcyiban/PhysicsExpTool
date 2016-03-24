@@ -18,7 +18,7 @@
     <div class="panel panel-default">
 注释：<br>
         <p class="text-info">1.本实验仅计算液体密度，黏滞系数及雷诺数</p>
-        <p>2.黏滞系数需要通过作图得出的无限广延下的速度v0</p>
+        <p class="text-info">2.黏滞系数需要通过作图得出的无限广延下的速度v0</p>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
