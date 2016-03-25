@@ -11,11 +11,13 @@ $(document).ready(function(){
         var S;
         S = SS(bn,bR0,R01);
         S  = S.toFixed(3);
+        var a;
+        a = SSa(f,Dn,Dw);
         $("#record_DB").append(
             "<tr> " +
             "<td style='word-break: break-all'>"+RX1+" <br/>"+a+"<br/>" +c1+"<br/> " +R01 + " <br/>"+bR0 + "<br/>"+bn+"</td > " +
             " <td style='word-break: break-all'>"+Rx+"</td> " +
-            " <td style='word-break: break-all'>"+S+"</td> " +
+            " <td style='word-break:break-all'>"+S+"</td> " +
             "</tr>");
     });
     $('#su').click(function(){
@@ -36,9 +38,9 @@ $(document).ready(function(){
             "</tr>");
     });
 
-    function SSa(f,k,dw,dn){
+    function SSa(f,dw,dn){
         var rx;
-        rx = f;
+        rx = f/(Math.PI*(dn+dw));
         return rx;
     }
     function UxSum(Shu1,Shu2,Shu3,Shu4,Shu5){
