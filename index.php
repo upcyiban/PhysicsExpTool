@@ -93,6 +93,11 @@
                     <p class="report">落球法测量油品粘滞系数</p>
                 </li>
             </a>
+            <a href="toolspage/xxzl.php">
+                <li>
+                    <p class="report">小型制冷装置</p>
+                </li>
+            </a>
             <a href="report.php">
                 <li>
                     <p class="report">没有你想找的实验处理工具?点此反馈</p>
