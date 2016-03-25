@@ -5,19 +5,19 @@ $(document).ready(function(){
         var   ab= $("#ab").val();
         var   Dn= $("#Dn").val();
         var   Dw= $("#Dw").val();
-        var Rx;
-        Rx = SRx(c1,R01);
-        Rx  = Rx.toFixed(3);
-        var S;
-        S = SS(bn,bR0,R01);
-        S  = S.toFixed(3);
+
         var a;
         a = SSa(f,Dn,Dw);
+        var da;
+        da = Da(ab,a);
+        var ea;
+        ea = Ea(da,ab);
         $("#record_DB").append(
             "<tr> " +
-            "<td style='word-break: break-all'>"+RX1+" <br/>"+a+"<br/>" +c1+"<br/> " +R01 + " <br/>"+bR0 + "<br/>"+bn+"</td > " +
-            " <td style='word-break: break-all'>"+Rx+"</td> " +
-            " <td style='word-break:break-all'>"+S+"</td> " +
+            "<td style='word-break: break-all'>"+f+" <br/>"+k+"<br/>" +ab+"<br/> " +Dn + " <br/>"+Dw + "<br/>" +
+            " <td style='word-break: break-all'>"+a+"</td> " +
+            " <td style='word-break:break-all'>"+da+"</td> " +
+            " <td style='word-break:break-all'>"+ea+"</td> " +
             "</tr>");
     });
     $('#su').click(function(){
@@ -49,5 +49,15 @@ $(document).ready(function(){
         pin = (Shu1+Shu2+Shu3+Shu4+Shu5)/5;
         sum =Math.sqrt( ((Shu1-pin)*(Shu1-pin)+(Shu2-pin)*(Shu2-pin)+(Shu3-pin)*(Shu3-pin)+(Shu4-pin)*(Shu4-pin)+(Shu5-pin)*(Shu5-pin))/20);
         return sum;
+    }
+    function Da(ab,a){
+        var da;
+        da = a - ab;
+        return da;
+    }
+    function Ea(da,ab){
+        var ea;
+        ea = da/ab*100;
+        return ea;
     }
 });
