@@ -25,7 +25,7 @@
     <h1>大物实验数据<br>辅助处理工具</h1>
 
     <p class="sta">
-        &nbsp;当前已开发 <span>9</span> 个工具&nbsp;
+        &nbsp;当前已开发 <span>10</span> 个工具&nbsp;
     </p>
     <!--    <div class="search">-->
     <!--        <input class="searchinput" type="text">&nbsp;&nbsp;<button class="btn">搜索</button>-->
@@ -76,6 +76,16 @@
             <a href="toolspage/ccfbcl.php">
                 <li>
                     <p class="report">亥姆霍兹</p>
+                </li>
+            </a>
+            <a href="toolspage/ccfbcl.php">
+                <li>
+                    <p class="report">亥姆霍兹</p>
+                </li>
+            </a>
+            <a href="toolspage/mnjdc.php">
+                <li>
+                    <p class="report">模拟法测绘静电场</p>
                 </li>
             </a>
             <a href="report.php">
