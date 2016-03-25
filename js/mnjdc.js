@@ -6,7 +6,9 @@ function sum1(){
     var sum = 0;
     for(var i=0;i<n;i++){
         sum += Number($('#r'+i).val());
+        $('#r'+i).val("");
     }
+
     var ave=1.0*sum/n;
     ave=ave.toFixed(2);
     $("#date").append('<tr> <th style="word-break: break-all;text-align: center">'+ave+'</th> <th style="word-break: break-all;text-align: center">'+Math.log(ave).toFixed(2)+'</th></tr>');
