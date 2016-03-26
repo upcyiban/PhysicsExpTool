@@ -32,6 +32,7 @@
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="rNum" placeholder="输入r的测量个数">
                     </div>
+                    <br><br>
                     <div class="form-group">
                         <div class="col-sm-12">
                             <button id="submitr" class="btn btn-default">确认</button>
