@@ -19,6 +19,7 @@
 注释：<br>
         <p class="text-info">1.本实验仅计算液体密度，黏滞系数及雷诺数</p>
         <p class="text-info">2.黏滞系数需要通过作图得出的无限广延下的速度v0</p>
+        <p class="text-info">3.处理数据所得的液体黏滞系数是由无限广延下的速度求得的，若想得到测试液体的黏滞系数需根据雷诺数Re对公式进行修正</p>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
