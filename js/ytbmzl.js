@@ -1,13 +1,14 @@
 $(document).ready(function(){
     $('#sa').click(function(){
-        var   f= $("#f").val();
+        var   f= $("#f").val()/1000;
         var   k= $("#k").val();
+        var   m= $("#m").val()/1000;
         var   ab= $("#ab").val();
-        var   Dn= $("#Dn").val();
-        var   Dw= $("#Dw").val();
+        var   Dn= $("#Dn").val()/1000;
+        var   Dw= $("#Dw").val()/1000;
 
         var a;
-        a = SSa(f,Dn,Dw);
+        a = SSa(f,Dn,Dw,m);
         var da;
         da = Da(ab,a);
         var ea;
@@ -38,9 +39,9 @@ $(document).ready(function(){
             "</tr>");
     });
 
-    function SSa(f,dw,dn){
+    function SSa(f,dw,dn,m){
         var rx;
-        rx = f/(Math.PI*(dn+dw));
+        rx = (m*9.8-f)/(Math.PI*(dn+dw));
         return rx;
     }
     function UxSum(Shu1,Shu2,Shu3,Shu4,Shu5){

@@ -27,6 +27,12 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">m(mg)</label>
+                    <div class="col-sm-8">
+                        <input id="m" type="text" class="form-control" value="输入m" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">常数k</label>
                     <div class="col-sm-8">
                         <input id="k" type="text" class="form-control" value="输入常数k" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
@@ -39,13 +45,13 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">D内（m）</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">D内（mm）</label>
                     <div class="col-sm-8">
                         <input id="Dn" type="text" class="form-control" value="输入D内" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">D外（m）</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">D外（mm）</label>
                     <div class="col-sm-8">
                         <input id="Dw" type="text" class="form-control" value="输入D外" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
