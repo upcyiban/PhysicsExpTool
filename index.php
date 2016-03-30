@@ -48,11 +48,6 @@
                     <p class="report">牛顿第二定律的验证</p>
                 </li>
             </a>
-            <a href="toolspage/fatx.php">
-                <li>
-                    <p class="report">电学元件的伏安特性研究</p>
-                </li>
-            </a>
             <a href="toolspage/gtzdgldcl.php">
                 <li>
                     <p class="report">刚体转动惯量的测量</p>
