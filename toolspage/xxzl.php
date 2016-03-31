@@ -52,12 +52,10 @@
                 <thead>
                 <tr>
                     <td>历史数据</td>
-                    <td>a实</td>
-                    <td>a理论</td>
-                    <td>F实</td>
-                    <td>F理论</td>
-                    <td>Ba(%)</td>
-                    <td>BF(%)</td>
+                    <td>U</td>
+                    <td>I</td>
+                    <td>P(电)</td>
+                    <td>ε</td>
                 </tr>
                 </thead>
                 <tbody id="record">
