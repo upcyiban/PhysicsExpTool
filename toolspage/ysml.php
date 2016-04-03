@@ -17,7 +17,7 @@
     <div class="panel panel-default">
         <p style="text-align: left">注释：</p>
         <p style="text-align: left">本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
-        <p style="text-align: left">直接输入5次L和D测量数据，每个数据用逗号，或空格作为分隔符</p>
+        <p style="text-align: left">直接输入5次L和D测量数据，每个数据用空格作为分隔符</p>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
@@ -58,7 +58,7 @@
                 <thead>
                 <tr>
                     <td>输入数据</td>
-                    <td>L、D均</td>
+                    <td>L、D均指</td>
                     <td>µD、µL、µR</td>
                     <td>最终结果</td>
                 </tr>
