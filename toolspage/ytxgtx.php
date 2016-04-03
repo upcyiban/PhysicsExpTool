@@ -3,58 +3,58 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>ÒºÌåÐý¹âÌØÐÔÑÐ¾¿</title>
+    <title>æ¶²ä½“æ—‹å…‰ç‰¹æ€§ç ”ç©¶</title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/DEMO.js"></script>
     <script src="../js/gtzdgldcl.js"></script>
 </head>
 <body>
 <div id="container" class="container">
-    <h1>ÒºÌåÐý¹âÌØÐÔÑÐ¾¿</h1>
+    <h1>æ¶²ä½“æ—‹å…‰ç‰¹æ€§ç ”ç©¶</h1>
     <br>
     <div class="panel panel-default">
         <div class="panel-body">
-            <h3>½ðÊôÔØÎïÅÌ×ª¶¯¹ßÁ¿¿ò¼ÜJ0ºÍ×ª¶¯³£ÊýK</h3>
+            <h3>é‡‘å±žè½½ç‰©ç›˜è½¬åŠ¨æƒ¯é‡æ¡†æž¶J0å’Œè½¬åŠ¨å¸¸æ•°K</h3>
             <div class="form-horizontal">
                 <br/>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">ËÜÁÏÔ²ÖùÌåÖÊÁ¿m(µ¥Î»:kg)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">å¡‘æ–™åœ†æŸ±ä½“è´¨é‡m(å•ä½:kg)</label>
                     <div class="col-sm-8">
-                        <input id="SYM" type="text" class="form-control" value="ÊäÈëËÜÁÏÔ²ÖùÌåÖÊÁ¿" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="SYM" type="text" class="form-control" value="è¾“å…¥å¡‘æ–™åœ†æŸ±ä½“è´¨é‡" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">ËÜÁÏÔ²ÖùÌåÖ±¾¶D(µ¥Î»:m)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">å¡‘æ–™åœ†æŸ±ä½“ç›´å¾„D(å•ä½:m)</label>
                     <div class="col-sm-8">
-                        <input id="SYD" type="text" class="form-control" value="ÊäÈëËÜÁÏÔ²ÖùÌåÖ±¾¶" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="SYD" type="text" class="form-control" value="è¾“å…¥å¡‘æ–™åœ†æŸ±ä½“ç›´å¾„" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">T0(µ¥Î»:s)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">T0(å•ä½:s)</label>
                     <div class="col-sm-8">
-                        <input id="T0" type="text" class="form-control" value="ÊäÈëT0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="T0" type="text" class="form-control" value="è¾“å…¥T0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">T1(µ¥Î»:s)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">T1(å•ä½:s)</label>
                     <div class="col-sm-8">
-                        <input id="T1" type="text" class="form-control" value="ÊäÈëT1" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="T1" type="text" class="form-control" value="è¾“å…¥T1" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <button id="JS_J0" class="btn btn-default">¼ÆËã</button>
+                        <button id="JS_J0" class="btn btn-default">è®¡ç®—</button>
                     </div>
                 </div>
             </div>
             <div class="panel panel-default">
-                ×¢ÊÍ£º<br>
-                <p>²»È·¶¨¶ÈÓÉÓÚ¸÷¸öÊµÑéÆ÷²Ä²»Í¬£¬Çë×ÔÐÐ¼ÆËã¡£</p>
+                æ³¨é‡Šï¼š<br>
+                <p>ä¸ç¡®å®šåº¦ç”±äºŽå„ä¸ªå®žéªŒå™¨æä¸åŒï¼Œè¯·è‡ªè¡Œè®¡ç®—ã€‚</p>
             </div>
-            <h2>ÀúÊ·¼ÇÂ¼</h2>
+            <h2>åŽ†å²è®°å½•</h2>
             <table class="table">
                 <thead>
                 <tr>
@@ -72,76 +72,76 @@
             </table>
         </div>
         <div class="panel-body">
-            <h3>×ª¶¯¹ßÁ¿µÄÀíÂÛÖµºÍÊµÑéÖµ</h3>
+            <h3>è½¬åŠ¨æƒ¯é‡çš„ç†è®ºå€¼å’Œå®žéªŒå€¼</h3>
             <div class="form-horizontal">
                 <br/>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">Ñ¡Ôñ¼ÆËãÁ¿</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">é€‰æ‹©è®¡ç®—é‡</label>
                     <div class="col-sm-8">
-                        <input id="XZ" type="text" class="form-control" value="ÊäÈëÊý×Öx" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="XZ" type="text" class="form-control" value="è¾“å…¥æ•°å­—x" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
 
                 </div>
                 <div class="panel panel-default">
-                    ×¢ÊÍ£º<br>
-                    <p>ÊäÈë1´ú±íÔ²Í²£¬2´ú±íÄ¾Çò£¬3´ú±íÏ¸¸Ë</p>
+                    æ³¨é‡Šï¼š<br>
+                    <p>è¾“å…¥1ä»£è¡¨åœ†ç­’ï¼Œ2ä»£è¡¨æœ¨çƒï¼Œ3ä»£è¡¨ç»†æ†</p>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">ÖÊÁ¿m(µ¥Î»:kg)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">è´¨é‡m(å•ä½:kg)</label>
                     <div class="col-sm-8">
-                        <input id="M" type="text" class="form-control" value="ÊäÈëÖÊÁ¿" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="M" type="text" class="form-control" value="è¾“å…¥è´¨é‡" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">ÄÚ¾¶d(µ¥Î»:m)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">å†…å¾„d(å•ä½:m)</label>
                     <div class="col-sm-8">
-                        <input id="NJ" type="text" class="form-control" value="ÊäÈë½ðÊôÔ²Í²ÄÚ¾¶d£¬Èç¹ûÃ»ÓÐÇëÊäÈëÁã" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="NJ" type="text" class="form-control" value="è¾“å…¥é‡‘å±žåœ†ç­’å†…å¾„dï¼Œå¦‚æžœæ²¡æœ‰è¯·è¾“å…¥é›¶" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">Íâ¾¶D(µ¥Î»:m)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">å¤–å¾„D(å•ä½:m)</label>
                     <div class="col-sm-8">
-                        <input id="WJ" type="text" class="form-control" value="ÊäÈëÍâ¾¶D»ò³¤¶È" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="WJ" type="text" class="form-control" value="è¾“å…¥å¤–å¾„Dæˆ–é•¿åº¦" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">T(µ¥Î»:s)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">T(å•ä½:s)</label>
                     <div class="col-sm-8">
-                        <input id="T" type="text" class="form-control" value="ÊäÈëT" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="T" type="text" class="form-control" value="è¾“å…¥T" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">×ª¶¯³£Êýk</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">è½¬åŠ¨å¸¸æ•°k</label>
                     <div class="col-sm-8">
-                        <input id="K" type="text" class="form-control" value="ÊäÈëk" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="K" type="text" class="form-control" value="è¾“å…¥k" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">ÔØÎïÅÌ»òÖ§¼ÜµÄ×ª¶¯¹ßÁ¿J0</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">è½½ç‰©ç›˜æˆ–æ”¯æž¶çš„è½¬åŠ¨æƒ¯é‡J0</label>
                     <div class="col-sm-8">
-                        <input id="J0" type="text" class="form-control" value="ÊäÈëÔØÎïÅÌ»òÖ§¼ÜµÄ×ª¶¯¹ßÁ¿J0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
+                        <input id="J0" type="text" class="form-control" value="è¾“å…¥è½½ç‰©ç›˜æˆ–æ”¯æž¶çš„è½¬åŠ¨æƒ¯é‡J0" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <button id="JS_J2" class="btn btn-default">¼ÆËã</button>
+                        <button id="JS_J2" class="btn btn-default">è®¡ç®—</button>
                     </div>
                 </div>
             </div>
-            <h2>ÀúÊ·¼ÇÂ¼</h2>
+            <h2>åŽ†å²è®°å½•</h2>
             <table class="table">
                 <thead>
                 <tr>
-                    <th class="text-center">ËùËãÁ¿</th>
+                    <th class="text-center">æ‰€ç®—é‡</th>
                     <th class="text-center">m</th>
                     <th class="text-center">d</th>
                     <th class="text-center">D</th>
                     <th class="text-center">T</th>
                     <th class="text-center">k</th>
                     <th class="text-center">J0</th>
-                    <th class="text-center">ÀíÂÛÖµ</th>
-                    <th class="text-center">ÊµÑéÖµ</th>
-                    <th class="text-center">Ïà¶ÔÎó²î%</th>
+                    <th class="text-center">ç†è®ºå€¼</th>
+                    <th class="text-center">å®žéªŒå€¼</th>
+                    <th class="text-center">ç›¸å¯¹è¯¯å·®%</th>
 
                 </tr>
                 </thead>

@@ -8,7 +8,7 @@
     <link href="css/main.css" rel="stylesheet">
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/DEMO.js"></script>
 <!--    百度统计代码-->
     <script>
         var _hmt = _hmt || [];
