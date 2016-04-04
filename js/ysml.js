@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $('#ysmlbtn').click(function () {
-        var d = $('#d').val();//creat by 77dfeba
+    $('#ysmlbtn').click(function () {//creat by 77dfeba
+        var d = $('#d').val();
         var l = $('#l').val();
         var m = $('#m').val();
         var f = $('#f').val();
@@ -17,10 +17,12 @@ $(document).ready(function () {
             }
             return (average / dpointnum).toFixed(4);
         }
-        //end average
+
         da = average(dpointnum, d);
         la = average(lpointnum, l);
-        var T = da / la * 0.001;//get fix number T
+        //end average
+
+        var T = da / la * 0.1;//get fix number T
         if (T <= 0.01) {
             T = 1.001
         } else if (T <= 0.02) {
@@ -53,21 +55,21 @@ $(document).ready(function () {
             return ua.toFixed(4);
         }
 
-        //end uncertainty
         ud = uncertainty(da, dpointnum, d, 0.00001);//0.01mm
         ul = uncertainty(la, lpointnum, l, 0.001);///0.01m
-        var E = 1.6067 * Math.pow(la, 3) * m * Math.pow(f, 2) * T / Math.pow(da, 4);
+        //end uncertainty
+        var E = 1.6067 * Math.pow(la*0.01, 3) * m *0.001* Math.pow(f, 2) * T / Math.pow(da * 0.001, 4) * 0.0000000001;//E=1.6067*l^3*f^2*m*m/d^4
         E = E.toFixed(4);
-        var urd = -4 * Math.pow(da * 0.001, 6) * ud;//uncertain d
-        var url = 3 * Math.pow(la, -2) * ul;//uncertainty l
+        var urd = -4 * Math.pow(da, -1) * ud;//uncertain d = -4/d
+        var url = 3 * Math.pow(la, -1) * ul;//uncertainty l = 3*l
         ur = Math.pow(Math.pow(urd, 2) + Math.pow(url, 2), 0.5);//compound uncertainty ur
         ur = ur.toFixed(4);
         var Er = (E * ur).toFixed(4);
         $('#record').append("<tr>" +
-            "<td style='word-break: break-all'>" + m + 'kg、' + f + 'hz..' + "</td>" +
-            "<td style='word-break: break-all'>" + la + 'm、' + da + 'mm' + "</td>" +
+            "<td style='word-break: break-all'>" + m + 'g、' + f + 'hz..' + "</td>" +
+            "<td style='word-break: break-all'>" + da + 'mm、' + la + 'cm' + "</td>" +
             "<td style='word-break: break-all'>" + ud + '、' + ul + '、' + ur + "</td>" +
-            "<td style='word-break: break-all'>" + E + '±' + Er + "</td>" +
+            "<td style='word-break: break-all'>" + '(' + E + '±' + Er + ')' + 'E^10' + "</td>" +
             "</tr>"
         );
     });

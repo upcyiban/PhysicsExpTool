@@ -16,15 +16,15 @@
     <br>
     <div class="panel panel-default">
         <p style="text-align: left">注释：</p>
-        <p style="text-align: left">本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
-        <p style="text-align: left">直接输入5次L和D测量数据，每个数据用一个空格作为分隔符</p>
+        <p style="text-align: left">数据末位有零应舍去，本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
+        <p style="text-align: left">直接输入5次L和D测量数据，每个数据用一个空格作为分隔符，不确定度需转换为百分比。</p>
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
             <br>
             <div class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">质量M(单位：kg)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">质量M(单位：g)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="m" placeholder="质量M">
                     </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">材料长L(单位：m)</label>
+                    <label for="inputEmail3" class="col-sm-2 control-label">材料长L(单位：cm)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="l" placeholder="材料长度L">
                     </div>
@@ -58,7 +58,7 @@
                 <thead>
                 <tr>
                     <td>输入数据</td>
-                    <td>L、D均值</td>
+                    <td>D、L均值</td>
                     <td>µD、µL、µR</td>
                     <td>最终结果</td>
                 </tr>

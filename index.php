@@ -78,6 +78,11 @@
                     <p class="report">模拟法测绘静电场</p>
                 </li>
             </a>
+            <a href="toolspage/ysml.php">
+                <li>
+                    <p class="report">动态法测量杨氏模量</p>
+                </li>
+            </a>
 <!--            <a href="toolspage/lqfcnzxs.php">-->
 <!--                <li>-->
 <!--                    <p class="report">落球法测量油品粘滞系数</p>-->
