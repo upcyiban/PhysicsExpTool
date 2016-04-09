@@ -124,7 +124,7 @@
                     <td class="text-center">A类不确定度</td>
                 </tr>
                 </thead>
-                <tbody id="record_DB">
+                <tbody id="record_Ux">
                 </tbody>
             </table>
         </div>
