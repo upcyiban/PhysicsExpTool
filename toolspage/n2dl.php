@@ -75,6 +75,7 @@
                     <td>a理论</td>
                     <td>V1</td>
                     <td>V2</td>
+                    <td>F理论</td>
                     <td>F实际（m2*a实）</td>
                     <td>Ba(%)</td>
                     <td>BF(%)</td>
@@ -84,58 +85,58 @@
                 </tbody>
             </table>
         </div>
-        <div class="panel-body">
-            <h3>A类不确定度</h3>
-            <div class="form-horizontal">
-                <br/>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据1</label>
-                    <div class="col-sm-8">
-                        <input id="shu1" type="text" class="form-control" value="输入数据1" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据2</label>
-                    <div class="col-sm-8">
-                        <input id="shu2" type="text" class="form-control" value="输入数据2" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据3</label>
-                    <div class="col-sm-8">
-                        <input id="shu3" type="text" class="form-control" value="输入数据3" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据4</label>
-                    <div class="col-sm-8">
-                        <input id="shu4" type="text" class="form-control" value="输入数据4" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">数据5</label>
-                    <div class="col-sm-8">
-                        <input id="shu5" type="text" class="form-control" value="输入数据5" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-12">
-                        <button id="uncenter" class="btn btn-default">计算</button>
-                    </div>
-                </div>
-            </div>
-            <h2>历史记录</h2>
-            <table class="table">
-                <thead>
-                <tr>
-                    <td class="text-center">输入数据</td>
-                    <td class="text-center">A类不确定度</td>
-                </tr>
-                </thead>
-                <tbody id="record_Ux">
-                </tbody>
-            </table>
-        </div>
+<!--        <div class="panel-body">-->
+<!--            <h3>A类不确定度</h3>-->
+<!--            <div class="form-horizontal">-->
+<!--                <br/>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="inputEmail3" class="col-sm-2 control-label">数据1</label>-->
+<!--                    <div class="col-sm-8">-->
+<!--                        <input id="shu1" type="text" class="form-control" value="输入数据1" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="inputEmail3" class="col-sm-2 control-label">数据2</label>-->
+<!--                    <div class="col-sm-8">-->
+<!--                        <input id="shu2" type="text" class="form-control" value="输入数据2" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="inputEmail3" class="col-sm-2 control-label">数据3</label>-->
+<!--                    <div class="col-sm-8">-->
+<!--                        <input id="shu3" type="text" class="form-control" value="输入数据3" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="inputEmail3" class="col-sm-2 control-label">数据4</label>-->
+<!--                    <div class="col-sm-8">-->
+<!--                        <input id="shu4" type="text" class="form-control" value="输入数据4" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label for="inputEmail3" class="col-sm-2 control-label">数据5</label>-->
+<!--                    <div class="col-sm-8">-->
+<!--                        <input id="shu5" type="text" class="form-control" value="输入数据5" onfocus="if(this.value==defaultValue) {this.value=''}" onblur="if(!value) {value=defaultValue; this.type='text';}" style="color:#666;" />-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <div class="col-sm-12">-->
+<!--                        <button id="uncenter" class="btn btn-default">计算</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <h2>历史记录</h2>-->
+<!--            <table class="table">-->
+<!--                <thead>-->
+<!--                <tr>-->
+<!--                    <td class="text-center">输入数据</td>-->
+<!--                    <td class="text-center">A类不确定度</td>-->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody id="record_Ux">-->
+<!--                </tbody>-->
+<!--            </table>-->
+<!--        </div>-->
     </div>
 
     <footer class="text-center">

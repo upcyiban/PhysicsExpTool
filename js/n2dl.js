@@ -37,23 +37,26 @@ $(document).ready(function () {
         bf = SB(FL,FS);
 
         if (a != 0) {
-            aL = aL.toFixed(6);
-            a = a.toFixed(6);
             x1 = (x1*100).toFixed(0);
             t1 = (1000*t1).toFixed(2);
             t2 = (t2*1000).toFixed(2);
+            a = a.toFixed(4);
+            aL = aL.toFixed(4);
             //M1 = (M1*1000).toFixed(1);
             //M2 = (M2*1000).toFixed(1);
             ba = ba.toFixed(1);
-            v1 = v1.toFixed(6);
-            v2 = v2.toFixed(6);
             bf = bf.toFixed(1);
+            v1 = v1.toFixed(4);
+            v2 = v2.toFixed(4);
+            FL = FL.toFixed(4);
+            FS = FS.toFixed(4);
             $("#record").append("<tr>  <td style='word-break: break-all'>" + x1 + "<br>" + t1 + "<br> " + t2 + "<br> " + s +"<br> " + M1 +"<br>" + M2 + "</td> " +
             "<td style='word-break: break-all'>" + a + "</td> " +
             " <td style='word-break: break-all'>" + aL + "</td>" +
             "<td style='word-break: break-all'>" + v1 + "</td> " +
             "<td style='word-break: break-all'>" + v2 + "</td> "+
-            " <td style='word-break: break-all'>" + FS + "</td>" +
+            " <td style='word-break: break-all'>" + FL + "</td>" +
+             " <td style='word-break: break-all'>" + FS + "</td>" +
             " <td style='word-break: break-all'>" + ba + "</td>" +
             "<td style='word-break: break-all'>" + bf + "</td>  </tr>");
         }
@@ -66,8 +69,10 @@ $(document).ready(function () {
         var   shu5= $("#shu5").val();
 
         var Ux;
-        Ux= UxSum(shu1,shu2,shu3,shu4,shu5);
-
+        var pin;
+        pin = (shu1+shu2+shu3+shu4+shu5)/5;
+        Ux= Math.sqrt(((shu1-pin)*(shu1-pin)+(shu2-pin)*(shu2-pin)+(shu3-pin)*(shu3-pin)+(shu4-pin)*(shu4-pin)+(shu5-pin)*(shu5-pin))/20);
+        Ux = Ux.toFixed(6);
         $("#record_Ux").append(
             "<tr> " +
             "<td style='word-break: break-all'>"+shu1+"<br>"
@@ -80,13 +85,7 @@ $(document).ready(function () {
         b = Math.abs((L-S)/L)*100;
         return b;
     }
-    function UxSum(Shu1,Shu2,Shu3,Shu4,Shu5){
-        var sum;
-        var pin;
-        pin = (Shu1+Shu2+Shu3+Shu4+Shu5)/5;
-        sum =Math.sqrt( ((Shu1-pin)*(Shu1-pin)+(Shu2-pin)*(Shu2-pin)+(Shu3-pin)*(Shu3-pin)+(Shu4-pin)*(Shu4-pin)+(Shu5-pin)*(Shu5-pin))/20);
-        return sum;
-    }
+
 });
 
 
