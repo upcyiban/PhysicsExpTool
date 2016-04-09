@@ -16,9 +16,9 @@ $(document).ready(function () {
         var aL;
         var v1;
         var v2;
-        v1 =(x1 / t1) * (x1 / t1);
-        v2 = ( x1 / t2) * (x1 / t2);
-        var a = (v2 -v1) / (s * 2);
+        v1 =(x1 / t1) ;
+        v2 = ( x1 / t2) ;
+        var a = (v2*v2 -v1*v1) / (s * 2);
         if (a == 0) {
             alert("加速度不能为0,请重新输入!");
         }
@@ -45,14 +45,15 @@ $(document).ready(function () {
             //M1 = (M1*1000).toFixed(1);
             //M2 = (M2*1000).toFixed(1);
             ba = ba.toFixed(1);
-            FL = FL.toFixed(6);
-            FS = FS.toFixed(6);
+            v1 = v1.toFixed(6);
+            v2 = v2.toFixed(6);
             bf = bf.toFixed(1);
             $("#record").append("<tr>  <td style='word-break: break-all'>" + x1 + "<br>" + t1 + "<br> " + t2 + "<br> " + s +"<br> " + M1 +"<br>" + M2 + "</td> " +
             "<td style='word-break: break-all'>" + a + "</td> " +
             " <td style='word-break: break-all'>" + aL + "</td>" +
-            "<td style='word-break: break-all'>" + FS + "</td> " +
-            "<td style='word-break: break-all'>" + FL + "</td> " +
+            "<td style='word-break: break-all'>" + v1 + "</td> " +
+            "<td style='word-break: break-all'>" + v2 + "</td> "+
+            " <td style='word-break: break-all'>" + FS + "</td>" +
             " <td style='word-break: break-all'>" + ba + "</td>" +
             "<td style='word-break: break-all'>" + bf + "</td>  </tr>");
         }

@@ -73,8 +73,9 @@
                     <td>历史数据</td>
                     <td>a实</td>
                     <td>a理论</td>
-                    <td>F实</td>
-                    <td>F理论</td>
+                    <td>V1</td>
+                    <td>V2</td>
+                    <td>F实际（m2*a实）</td>
                     <td>Ba(%)</td>
                     <td>BF(%)</td>
                 </tr>
