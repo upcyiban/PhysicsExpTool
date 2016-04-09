@@ -15,15 +15,15 @@
     <h1>牛顿第二定律</h1>
     <br>
     <div class="panel panel-default">
-        注释：<br>
-        <p>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>
+<!--        注释：<br>-->
+<!--        <p>本计算结果保留四位小数，在记录数据请使用修约原则来保留三位小数。</p>-->
     </div>
     <div class="panel panel-default">
         <div class="panel-body">
             <br>
             <div class="form-horizontal">
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">x(单位：mm)</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">x(单位：cm)</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="x" placeholder="请输入光电门的宽度x">
                     </div>
@@ -48,13 +48,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">m1</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">m1（单位：g）</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="M1" placeholder="请输入M1">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">m2</label>
+                    <label for="inputPassword3" class="col-sm-2 control-label">m2（单位：g）</label>
                     <div class="col-sm-8">
                         <input type="text" class="form-control" id="M2" placeholder="请输入M2">
                     </div>
