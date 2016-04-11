@@ -35,7 +35,7 @@ $(document).ready(function () {
         var i = m1+"/"+m2+"/"+v10+"/"+v1+"/"+v2;
         $("#record").append("<tr> " +
             "<td style='word-break: break-all'>" + i + "</td> " +
-            "<td style='word-break: break-all'>" + p0 + "E-2/" + p0 + "E-2</td> " +
+            "<td style='word-break: break-all'>" + p0 + "E-2/" + p1 + "E-2</td> " +
             "<td style='word-break: break-all'>" + p + "%</td> " +
             "<td style='word-break: break-all'>" + e + "</td> " +
             "<td style='word-break: break-all'>" + r + "</td> </tr>");
