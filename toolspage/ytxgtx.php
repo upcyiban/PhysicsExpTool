@@ -55,7 +55,7 @@
                 <p>不确定度由于各个实验器材不同，请自行计算。</p>
             </div>
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead>
                 <tr>
                     <th class="text-center">T0</th>

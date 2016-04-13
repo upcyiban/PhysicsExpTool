@@ -54,7 +54,7 @@
                 </div>
             </div>
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead>
                 <tr>
                     <td>输入数据</td>

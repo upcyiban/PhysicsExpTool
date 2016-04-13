@@ -67,7 +67,7 @@
                 </div>
             </div>
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead>
                     <tr>
                         <th style="word-break: break-all;text-align: center">左侧左游标读数</th>

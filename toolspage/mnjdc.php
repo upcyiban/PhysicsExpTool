@@ -45,7 +45,7 @@
             <!--                <button id="sum" class="btn btn-default">计算</button>-->
             <!--            </div>-->
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead id="date">
                 <tr>
                     <th style="word-break: break-all;text-align: center">r平均</th>

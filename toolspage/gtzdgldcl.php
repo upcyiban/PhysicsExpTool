@@ -129,7 +129,7 @@
                 </div>
         </div>
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead>
                 <tr>
                     <th class="text-center">所算量</th>

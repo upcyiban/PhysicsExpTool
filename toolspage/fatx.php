@@ -53,7 +53,7 @@
                 </div>
             </div>
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead>
                 <tr>
                     <th style="word-break: break-all">输入数据</th>

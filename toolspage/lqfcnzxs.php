@@ -59,7 +59,7 @@
             </div>
 
             <h2>历史记录</h2>
-            <table class="table">
+            <table class="table-responsive">
                 <thead>
                 <tr>
                     <td>历史数据</td>
