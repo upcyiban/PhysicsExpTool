@@ -62,21 +62,30 @@ $(document).ready(function () {
         }
     });
     $('#uncenter').click(function(){
-        var   shu1= $("#shu1").val();
-        var   shu2= $("#shu2").val();
-        var   shu3= $("#shu3").val();
-        var   shu4= $("#shu4").val();
-        var   shu5= $("#shu5").val();
-
+        var shu = new Array()
+        shu[0]= $("#shu1").val();
+        shu[1]= $("#shu2").val();
+        shu[2]= $("#shu3").val();
+        shu[3]= $("#shu4").val();
+        shu[4]= $("#shu5").val();
+        var p;
+        var sum;
+        for ( i=0; i<5; i++)
+        {
+            p=p+shu[i];
+        }
+        p=p/5;
+        for ( i=0; i<5; i++)
+            shu[i]=shu[i]-p;
+        for ( i=0; i<5; i++)
+            sum += shu[i]*shu[i];
         var Ux;
-        var pin;
-        pin = (shu1+shu2+shu3+shu4+shu5)/5;
-        Ux= Math.sqrt(((shu1-pin)*(shu1-pin)+(shu2-pin)*(shu2-pin)+(shu3-pin)*(shu3-pin)+(shu4-pin)*(shu4-pin)+(shu5-pin)*(shu5-pin))/20);
+        Ux= Math.sqrt(sum/20);
         Ux = Ux.toFixed(6);
         $("#record_Ux").append(
             "<tr> " +
-            "<td style='word-break: break-all'>"+shu1+"<br>"
-            +shu2+"<br>"+shu3+"<br>"+shu4+"<br>"+shu5+"</td>" +
+            "<td style='word-break: break-all'>"+shu[0]+"<br>"
+            +shu[1]+"<br>"+shu[2]+"<br>"+shu[3]+"<br>"+shu[4]+"</td>" +
             "<td style='word-break: break-all'>"+Ux+"</td>" +
             "</tr>");
     });
